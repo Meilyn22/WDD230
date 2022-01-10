@@ -1,6 +1,6 @@
 let date = document.querySelector('#date')
 let copy = document.querySelector('#copy')
-copy.textContent = '2021 .:|:. Samson O. Idoko .:|:. Idaho'
+copy.textContent = '2022 .:|:. Samson O. Idoko .:|:. Idaho'
 let options =  {
     year: "numeric",
     month: "2-digit",
