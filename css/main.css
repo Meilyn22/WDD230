@@ -40,6 +40,15 @@ header {
     
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
 img {
     border-radius: 10px;
     box-shadow: 2px 2px 30px #555;
