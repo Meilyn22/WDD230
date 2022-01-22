@@ -33,6 +33,11 @@ h2 {
 nav ul {
 	list-style-type: none;
 	overflow: hidden;
+    
+}
+
+nav ul li{
+    border-bottom: 2px solid white;
 }
 
 nav ul li a{
@@ -42,7 +47,6 @@ nav ul li a{
     padding: 0.75rem;
     text-decoration: none;
     font-size: 1.3em;
-    border-right: 5px solid white;
     background-color: #116466;
 }
 
@@ -86,12 +90,19 @@ main {
 }
 
 .home-link {
-    color: yellow;
+    color: #f1a563;
     background-color: #2c3531;
 }
 
 .home-link:hover {
-    color: #116466;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+
 }
 
 
@@ -99,6 +110,9 @@ main {
 
 
 @media only screen and (min-width: 900px) {
+    nav ul li{
+        border-right: 5px solid white;
+    }
 
     body  {max-width: 70em;}
 header,

@@ -1,5 +1,5 @@
 let modifiedDate = document.querySelector('#date')
 let copy = document.querySelector('#copyright')
 
-modifiedDate.textContent = new Date(document.lastModified)
+modifiedDate.innerHTML = (document.lastModified)
 copy.textContent = new Date().getFullYear()
