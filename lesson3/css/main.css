@@ -91,9 +91,11 @@ main {
 
 @media only screen and (min-width: 900px) {
 
+    body  {max-width: 70em;}
 header,
 footer {
     padding: 20px;
+    
 }
     nav ul { display: flex; }
 	nav ul li { flex: 1 1 auto; }
