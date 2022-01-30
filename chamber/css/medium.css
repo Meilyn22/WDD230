@@ -11,7 +11,7 @@
 
     }
     
-    .nav-ul {
+    .nav-ul#nav-bar{
         display: flex;
         list-style: none;
         justify-content: center;  
