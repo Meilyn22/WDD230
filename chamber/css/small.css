@@ -16,7 +16,7 @@ header {
 
 .logo {
     display: block;
-    width: 18em;
+    width: auto;
     height: auto;
     margin: 5px;
 
@@ -28,8 +28,6 @@ header {
     background: none;
     color: gold;
     margin: 0.5em;
-    padding: 5px;
-    border: 3px solid #116466;
 
 }
 
