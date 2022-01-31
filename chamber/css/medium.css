@@ -1,26 +1,86 @@
 @media only screen and (min-width: 45rem) {
-    .hamburger {
-        display:none;
+  .hamburger {
+    display: none;
+  }
+
+  .logo {
+    display: block;
+    margin: 1em auto;
+    width: 357px;
+    height: auto;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-ul#nav-bar {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+
+  .nav-ul li {
+    border: none;
+  }
+
+  .nav-ul li a {
+    font-size: 1.3em;
+    padding: 0.5em;
+  }
+}
+
+
+.footer-sec2 {
+  display: flex;
+  flex-direction: row;
+  border-right: 1px solid;
+}
+
+.footer-sec {
+  flex-direction: row;
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1071px){
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px 300px 300px 1fr;
+        grid-template-areas: 
+            "h h h"
+            "n n n"
+            "s1 s2 s3"
+            "e e w";
+        column-gap: 10px;
+      }
+
+    .hero {
+      grid-area: h;
     }
 
-    .logo {
-        display: block;
-        margin: 1em auto;
-        width: 357px;
-        height: auto;
+    .new-release {
+        grid-area: n;
+    }
 
+    .event {
+        grid-area: e;
     }
     
-    .nav-ul#nav-bar{
-        display: flex;
-        list-style: none;
-        justify-content: center;  
+    .spotlight1 {
+        grid-area: s1;
     }
-    .nav-ul li {border: none;}
 
-    .nav-ul li a{
-        font-size: 1.3em;
-        padding: 0.5em;
+    .spotlight2 {
+        grid-area: s2;
+    }
+
+    .spotlight3 {
+        grid-area: s3;
+    }
+
+    .weather {
+        grid-area: w;
     }
 
 }

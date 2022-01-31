@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 1072px) {
     .logo {
 
         width: auto;
@@ -14,6 +14,52 @@
 
     .nav-ul li a{
         font-size: 2em;
+    }
+
+
+}
+
+@media only screen and (min-width: 1072px) and (max-width: 2647px) {
+
+    main {
+        margin: 0 5em 0 5em;
+        grid-template-columns:  250px auto auto 250px;
+        grid-template-rows: 300px 1fr 1fr;
+        column-gap: 10px;
+        grid-template-areas: 
+        "e h h s1"
+        "w h h s2"
+        "n n n s3";
+      }
+
+    .event {
+        grid-area: e;
+    }
+
+    .hero {
+        grid-area: h;
+    }
+    .new-release {
+        grid-area: n;
+    }
+
+    .weather {
+        grid-area: w;
+    }
+
+    .spotlight2 {
+        grid-area: s2;
+    }
+
+
+    .spotlight1 {
+        grid-area: s1;
+
+    }
+
+    .spotlight3 {
+        grid-area: s3;
+
     }
 
 
