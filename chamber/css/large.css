@@ -1,66 +1,58 @@
 @media only screen and (min-width: 1072px) {
-    .logo {
+  .logo {
+    width: auto;
+    height: auto;
+  }
 
-        width: auto;
-        height: auto;
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+  }
 
-    }
-
-    nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: end;
-    }
-
-    .nav-ul li a{
-        font-size: 2em;
-    }
-
-
+  .nav-ul li a {
+    font-size: 2em;
+  }
 }
 
 @media only screen and (min-width: 1072px) and (max-width: 2647px) {
 
-    main {
-        margin: 0 5em 0 5em;
-        grid-template-columns:  250px auto auto 250px;
-        grid-template-rows: 300px 1fr 1fr;
-        column-gap: 10px;
-        grid-template-areas: 
-        "e h h s1"
-        "w h h s2"
-        "n n n s3";
-      }
+  main {
+    margin: 0 5em 0 5em;
+    grid-template-columns: 300px auto auto 300px !important;
+    grid-template-rows: 300px 300px 300px !important;
+    grid-gap: 10px;
+    grid-template-areas:
+      "e h h s1"
+      "w h h s2"
+      "n n n s3";
+  }
 
-    .event {
-        grid-area: e;
-    }
+  #main .event {
+    grid-area: e;
+  }
 
-    .hero {
-        grid-area: h;
-    }
-    .new-release {
-        grid-area: n;
-    }
+  .hero {
+    grid-area: h;
+  }
 
-    .weather {
-        grid-area: w;
-    }
+  .new-release {
+    grid-area: n;
+  }
 
-    .spotlight2 {
-        grid-area: s2;
-    }
+  .weather {
+    grid-area: w;
+  }
 
+  .spotlight2 {
+    grid-area: s2;
+  }
 
-    .spotlight1 {
-        grid-area: s1;
+  .spotlight1 {
+    grid-area: s1;
+  }
 
-    }
-
-    .spotlight3 {
-        grid-area: s3;
-
-    }
-
-
+  .spotlight3 {
+    grid-area: s3;
+  }
 }
