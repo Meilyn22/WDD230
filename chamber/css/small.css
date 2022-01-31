@@ -68,7 +68,7 @@ header {
 .nav-ul li a {
   text-decoration: none;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 0.9em;
   color: #D9B0BC;
   padding: 0.5em;
 
@@ -135,7 +135,7 @@ main section {
 footer {
   background-color: black;
   color: #D9B0BC;
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: center;
 }
 

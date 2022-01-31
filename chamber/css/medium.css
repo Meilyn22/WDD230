@@ -42,6 +42,10 @@
     justify-content: center;
   }
 
+  footer {
+    font-size: 1.5em;
+  }
+
 }
 
   @media only screen and (min-width: 720px) and (max-width: 1072px) {
@@ -85,3 +89,5 @@
     grid-area: w;
   }
 }
+
+
