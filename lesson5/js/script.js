@@ -16,24 +16,24 @@ button.addEventListener("click", function(){
     let items = input.value;
     input.value = "";
 
-    let li = document.createElement("li")
-    let span =document.createElement("span")
-    let bu = document.createElement("button")
+    let li = document.createElement("li");
+    let span =document.createElement("span");
+    let bu = document.createElement("button");
 
-    li.appendChild(span)
-    li.appendChild(bu)
+    li.appendChild(span);
+    li.appendChild(bu);
 
-    span.textContent = items
-    bu.textContent = '❌'
+    span.textContent = items;
+    bu.textContent = '❌';
 
-    list.appendChild(li)
+    list.appendChild(li);
 
     bu.addEventListener('click', function() {
         li.remove()
-        input.focus()
+        
 
     });
-
+    input.focus();
 
 
 
