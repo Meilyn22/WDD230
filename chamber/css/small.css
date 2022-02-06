@@ -158,6 +158,33 @@ footer {
 
 }
 
+.date_header {
+  display: flex ;
+  color: white ;
+  justify-content: center ;
+  padding: 20px ;
+  font-size: 0.55em ;
+}
+
+.hero {
+  background-image: url(../images/hero.webp);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.hero_text {
+  display: inline-block;
+  padding: 20px;
+  background-color: rgba(10, 112, 41, 0.8);
+  color: #FFE440;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+
+}
+
 
 
 

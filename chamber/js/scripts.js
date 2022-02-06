@@ -11,3 +11,17 @@ let copy = document.querySelector('#copyright')
 
 modifiedDate.innerHTML = (document.lastModified)
 copy.textContent = new Date().getFullYear()
+
+let options = {
+    day: "2-digit",
+    month: "long",
+    year: "numeric"
+};
+
+today = new Date()
+let day = document.querySelector("#day")
+let dateYear = document.querySelector("#date_year")
+
+
+day.textContent = today.toLocaleDateString(today, {weekday: "long"})
+dateYear.textContent = today.toLocaleString(today, options);

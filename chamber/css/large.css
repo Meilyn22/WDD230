@@ -2,25 +2,30 @@
   .logo {
     width: auto;
     height: auto;
+    margin-left: 2px;
   }
 
   nav {
     display: flex;
     justify-content: space-around;
-    align-items: end;
+    align-items: start;
+    font-size: 1.2em;
   }
 
   .nav-ul li a {
     font-size: 2em;
   }
-}
 
-@media only screen and (min-width: 1072px) and (max-width: 2647px) {
+  nav .date_header{
+    font-size: 0.6em;
+    align-self: end;
+    position: absolute;
+  }
 
-  main {
+  body main {
     margin: 0 5em 0 5em;
-    grid-template-columns: 300px auto auto 300px !important;
-    grid-template-rows: 300px 300px 300px !important;
+    grid-template-columns: 300px auto auto 300px;
+    grid-template-rows: 300px 300px 300px;
     grid-gap: 10px;
     grid-template-areas:
       "e h h s1"
@@ -28,7 +33,7 @@
       "n n n s3";
   }
 
-  #main .event {
+  .event {
     grid-area: e;
   }
 
