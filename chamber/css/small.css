@@ -29,14 +29,14 @@ header {
 .upper-nav {
   display: flex;
   justify-content: space-around;
-
 }
 
 .logo {
   display: block;
-  width: 200px;
+  width: AUTO;
   height: auto;
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: -20px;
 
 }
 
@@ -71,7 +71,7 @@ header {
   text-decoration: none;
   font-weight: bold;
   font-size: 0.9em;
-  color: #D9B0BC;
+  color: #FFE440;
   padding: 0.5em;
 
 }
@@ -181,9 +181,33 @@ footer {
   background-color: rgba(10, 112, 41, 0.8);
   color: #FFE440;
 
+}
+
+.call-to-action {
+  display: inline-block;
+  padding: 20px;
+  background-color: #DBE8D8;
+  color: #0A7029;
 
 
+}
 
+.logo-text {
+  font-size: 1.2em;
+  color:  #FFE440;
+  align-self: center;
+  margin-left: 7px;
+}
+
+.pic-text {
+  display: flex;
+}
+
+.logo-text span:nth-child(2) {
+  color: white;
+  font-size: 0.7em;
+  display: block;
+  margin-left: 60px;
 }
 
 
