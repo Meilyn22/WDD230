@@ -201,9 +201,9 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
-  line-height: 1.1;
+  line-height: 1.2;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 0.79em;
   color: rgba(0,0,0,20);
 }
 
