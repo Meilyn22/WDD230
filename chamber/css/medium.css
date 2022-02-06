@@ -48,7 +48,7 @@
 
   main {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px 300px 300px 1fr;
+    grid-template-rows: 300px 300px 300px  300px 1fr;
     grid-template-areas:
       "h h h"
       "n n n"
@@ -64,6 +64,8 @@
 
   .new-release {
     grid-area: n;
+    font-size: 1em;
+    font-style: italic;
   }
 
   .event {
