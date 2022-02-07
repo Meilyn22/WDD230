@@ -289,8 +289,16 @@ footer {
   font-weight: bold;
   text-align: left;
   line-height: 1.2;
-  font-size: 0.9em;
+  font-size: 1em;
   color: black;
+}
+
+
+.event-header:hover, 
+.spotlight1-header:hover, 
+.spotlight2-header:hover {
+  color: yellow;
+
 }
 
 .spotlight2 {
@@ -343,6 +351,10 @@ footer {
   font-size: 0.7em;
   display: block;
   margin-left: 60px;
+}
+
+.call-to-action:hover, .call:hover {
+  color: yellow;
 }
 
 
