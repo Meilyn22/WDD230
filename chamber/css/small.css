@@ -183,7 +183,7 @@ footer {
   font-weight: bold;
   justify-content: end;
   font-size: 0.8em;
-  background-image: url(../images/event.jpg);
+  background-image: url(../images/event.webp);
   background-position: top; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -246,7 +246,7 @@ footer {
   font-weight: bold;
   justify-content: end;
   font-size: 0.8em;
-  background-image: url(../images/stocks.jpg);
+  background-image: url(../images/stocks.webp);
   background-position: top; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -269,7 +269,7 @@ footer {
   font-weight: bold;
   justify-content: end;
   font-size: 0.8em;
-  background-image: url(../images/vacation3.jpg);
+  background-image: url(../images/vacation3.webp);
   background-position: top; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -292,7 +292,7 @@ footer {
   font-weight: bold;
   justify-content: end;
   font-size: 0.8em;
-  background-image: url(../images/seminar.jpg);
+  background-image: url(../images/seminar.webp);
   background-position: top; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
