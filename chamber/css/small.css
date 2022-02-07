@@ -178,7 +178,7 @@ footer {
 .event {
   display: flex;
   font-size: 0.5em;
-  background-color: rgba(10, 112, 41, 0.8);
+  background-color: black;
   background-image: url(../images/event.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -194,24 +194,37 @@ footer {
 
 }
 .spotlight1 {
-  background-color: rgba(10, 112, 41, 0.8);
+  background-color: black;
+  color: white;
 }
 
 .new-release {
   display: flex;
   flex-direction: column;
+  color: ;
+  font-weight: bold;
   align-items: center;
-  line-height: 1.1;
-  font-size: 0.7em;
-  color: rgba(0,0,0,20);
+  line-height: 1.2;
+  font-size: 0.9em;
+  background-color: #242333;
+  color: #eda909;
+}
+
+.spotlight2 {
+  background-color: rgb(44, 53, 49);
+
+}
+
+.spotlight3 {
+  background-color: rgb(44, 53, 49);
 }
 
 .new-release h2 {
   margin-bottom: 20px;
-  padding: 0 50px;
-  color: #FFE440;
+  padding: 0 200px;;
+  color: WHITE;
   display: block;
-  background-color: rgba(10, 112, 41, 1);
+  background-color: rgba(10, 112, 41, 0.8);
 }
 
 .call-to-action {
