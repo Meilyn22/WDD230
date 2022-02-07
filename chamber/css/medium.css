@@ -46,6 +46,11 @@
     font-size: 1em;
   }
 
+  .cloudy::after{
+    margin: 0 -70px;
+  
+  }
+
   main {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px 300px  300px 1fr;

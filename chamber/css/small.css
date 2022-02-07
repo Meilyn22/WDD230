@@ -177,12 +177,46 @@ footer {
 
 .event {
   display: flex;
-  font-size: 0.5em;
-  background-color: black;
+  flex-direction: column;
+  font-size: 0.9em;
+  color: white;
+  font-weight: bold;
+  justify-content: end;
+  font-size: 0.8em;
   background-image: url(../images/event.jpg);
-  background-position: center; /* Center the image */
+  background-position: top; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: 300px; /* Resize the background image to cover the entire container */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.event-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(195, 190, 54, 0.8);
+  margin: 0 -20px -20px;
+  padding: 10px 0;
+}
+
+.weather {
+  display: flex;
+  font-size: 0.9em;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #002147;
+}
+
+.cloudy::after{
+  display: flex;
+  content: '';
+  margin: 0 -150px;
+  border: 2px solid white;
+}
+
+.fas{
+  font-size: 7em;
+  color: #FFE440;
 
 }
 
@@ -194,37 +228,36 @@ footer {
 
 }
 .spotlight1 {
-  background-color: black;
+  background-color: #002147;
   color: white;
 }
 
 .new-release {
   display: flex;
   flex-direction: column;
-  color: ;
   font-weight: bold;
-  align-items: center;
+  text-align: left;
   line-height: 1.2;
   font-size: 0.9em;
-  background-color: #242333;
-  color: #eda909;
+  color: black;
 }
 
 .spotlight2 {
-  background-color: rgb(44, 53, 49);
+  background-color: #002147;
 
 }
 
 .spotlight3 {
-  background-color: rgb(44, 53, 49);
+  background-color: #002147;
 }
 
 .new-release h2 {
   margin-bottom: 20px;
   padding: 0 100px;;
+  text-align: center;
   color: WHITE;
   display: block;
-  background-color: rgba(10, 112, 41, 0.8);
+  background-color: rgba(10, 112, 41, 50);
 }
 
 .call-to-action {
