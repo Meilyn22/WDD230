@@ -283,6 +283,29 @@ footer {
   margin: 0 -20px -20px;
   padding: 10px 0;
 }
+
+.spotlight3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9em;
+  color: white;
+  font-weight: bold;
+  justify-content: end;
+  font-size: 0.8em;
+  background-image: url(../images/seminar.jpg);
+  background-position: top; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.spotlight3-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(10, 112, 41, 0.8);
+  margin: 0 -20px -20px;
+  padding: 10px 0;
+}
 .new-release {
   display: flex;
   flex-direction: column;
@@ -296,19 +319,11 @@ footer {
 
 .event-header:hover, 
 .spotlight1-header:hover, 
-.spotlight2-header:hover {
+.spotlight2-header:hover,
+.spotlight3-header:hover {
   color: yellow;
-
 }
 
-.spotlight2 {
-  background-color: #002147;
-
-}
-
-.spotlight3 {
-  background-color: #002147;
-}
 
 .new-release h2 {
   margin-bottom: 20px;
