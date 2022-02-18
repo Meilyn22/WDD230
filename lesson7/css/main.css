@@ -1,0 +1,12 @@
+body {
+    margin: 0 auto;
+}
+body img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 110px;
+}
+
+body h1 {
+    text-align: center;
+}
