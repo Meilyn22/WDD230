@@ -1,0 +1,61 @@
+* {
+    color: rgb(48, 53, 49);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+table.table_position {
+    margin: 0 auto;
+}
+
+table {
+    box-shadow: 8px 4px 4px rgb(119, 155, 178);
+    border: 1.5px solid rgb(185, 190, 194);
+    border-collapse: collapse;
+    
+}
+
+table thead tr td {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 6px;
+  
+}
+
+table tbody tr:nth-child(odd) td {
+    background-color:  rgb(231, 240, 237);
+}
+
+table thead, table tfoot {
+    background-color: rgb(128, 185, 193);
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: rgb(231, 255, 236);
+}
+
+table tr th, table tbody tr:nth-child(4) td:nth-child(3) {
+    color: white;
+    background-color: rgb(98, 140, 165);
+    
+}
+
+table tr th {
+    border: 1.5px solid rgb(185, 190, 194);
+    padding: 5px;
+}
+
+tfoot tr td {
+    font-size: .85em;
+    border: 1px solid rgb(185, 190, 194);
+    padding: 5px;
+    text-align: center;
+    
+}
+
+tbody tr td {
+    text-align: center;
+    border: 1px solid rgb(185, 190, 194);
+    padding: 6px;
+    
+
+}
