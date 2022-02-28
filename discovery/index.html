@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Riverdale Chamber of commerce" />
-    <link rel="stylesheet" href="css/large.css" />
-    <link rel="stylesheet" href="css/small.css" />
-    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="../chamber/css/large.css" />
+    <link rel="stylesheet" href="../chamber/css/small.css" />
+    <link rel="stylesheet" href="../chamber/css/medium.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
@@ -33,20 +33,18 @@
         <a href="./index.html" class="fa fa-pinterest">.</a>
         <a href="./index.html" class="fa fa-linkedin">.</a>
       </nav>
+
       <nav>
         <div class="upper-nav">
           <div class="pic-text">
             <a href="./index.html">
-              <img
-                class="logo"
-                src="images/riverdaleNEW.png"
-                alt="homepage-logo"
-                width="80"
-                height="80"
-            /></a>
+              <img class="logo" src="../chamber/images/riverdaleNEW.png"
+              alt="homepage-logo" width="80" height="80" />  </a>
+
             <h1 class="logo-text">
               <span>Riverdale Chamber</span> <span>of Commerce</span>
             </h1>
+       
           </div>
           <button id="hamburger" class="hamburger">
             <span>&#9776;</span><span>X</span>
@@ -54,7 +52,7 @@
         </div>
         <ul id="nav-bar" class="nav-ul">
           <li><a href="../chamber/index.html">Home</a></li>
-          <li><a href="../discovery/index.html">Discovery</a></li>
+          <li><a href="#">Discovery</a></li>
           <li><a href="#">Directory</a></li>
           <li><a href="#">Join</a></li>
           <li><a href="#">Contact</a></li>
@@ -69,69 +67,58 @@
       </nav>
     </header>
 
-    <main id="main">
-      <section class="hero">
-        <h1 class="hero_text">Welcome to Riverdale</h1>
-        <button class="call-to-action">Join Chamber</button>
-        <button class="call">Join Chamber</button>
-      </section>
-      <section class="event">
-        <h2 class="event-header">
-          <span>Chamber Concert </span>
-          <span>Join us on 15th February 2022.</span>
-          <span><i class="fas fa-location-arrow"></i></span>
-        </h2>
-      </section>
-      <section class="weather">
-        <h2>Weather</h2>
-        <i class="fas fa-cloud-sun"></i>
-        <h2>35° C</h2>
-        <h2 class="cloudy">Cloudy</h2>
-        <h2>Wind Speed: 3.5km/h</h2>
-      </section>
-      <section class="new-release">
-        <h2>News Release</h2>
-        <p>
-          Riverdale Chamber of Commerce celebrates & Honors Black History Month.
-        </p>
-        <p>
-          Caution urged despite lowest reported maritime piracy incidents since
-          1994.
-        </p>
-        <p>Amazon is coming to Riverdale.</p>
-        <p>Riverdale Chamber of commerce is hosting a concert.</p>
-        <p>
-          Riverdale CEO Calls on Congress, Administration to Act on Job Openings
-        </p>
-        <p>
-          Riverdale Chamber on White House's International STEM Talent
-          Announcement
-        </p>
-        <p>
-          U.S. Chamber Launches Bipartisan Commission on Artificial Intelligence
-          to Advance U.S. Leadership
-        </p>
-      </section>
-      <section class="spotlight1">
-        <h2 class="spotlight1-header">
-          <span>Learn About the Stock-Market </span>
-          <span><i class="fas fa-location-arrow"></i></span>
-        </h2>
-      </section>
-      <section class="spotlight2">
-        <h2 class="spotlight2-header">
-          <span>Vacation Planning Guide Request</span>
-          <span><i class="fas fa-location-arrow"></i></span>
-        </h2>
-      </section>
-      <section class="spotlight3">
-        <h2 class="spotlight3-header">
-          <span>How to Start a Business Seminar</span>
-          <span><i class="fas fa-location-arrow"></i></span>
-        </h2>
-      </section>
-    </main>
+    <h1 class="discovery-title">Discovery</h1>
 
+    <main id="images-section">
+
+        <section>
+            <img src="images/library.webp" data-src="" alt="library">
+            <h2>Riverdale City Library has all the books you need.</h2>
+        </section>
+
+        <section>
+            <img src="" data-src="images/museum.webp" alt="museum">
+            <h2>Enjoy the beauty of art and history at the museum</h2>
+        </section>
+
+        <section>
+            <img src="images/lakeside.webp" data-src="" alt="lakeside">
+            <h2>Riverdale Lake is a great place to fish and swim.</h2>
+        </section>
+
+        <section>
+            <img src="" data-src="images/market.webp" alt="market">
+            <h2>Shop for your favorites at Rives Local Market</h2>
+        </section>
+
+        <section>
+            <img src="" data-src="images/temple.webp" alt="temple">
+            <h2>Worship at the Riverdale City Temple.</h2>
+        </section>
+
+        <section>
+            <img src="" data-src="images/restaurant.webp" alt="restaurant">
+            <h2>Great meal options at Nathans restaurant</h2>
+        </section>
+
+        <section>
+            <img src="" data-src="images/trail.webp" alt="trail">
+            <h2>Hike and run at Riverdolen Trail</h2>
+        </section>
+
+        <section>
+            <img src="" data-src="images/university.webp" alt="University">
+            <h2>Study at the University of Riverdale</h2>
+        </section>
+
+        <section>
+            <img src="images/park.webp" data-src="" alt="park">
+            <h2>Relax at the Riverdale City Park</h2>
+        </section>
+
+        
+
+    </main>
     <footer>
       <section class="footer-sec">
         <div>
@@ -155,6 +142,7 @@
         <span id="date"></span>
       </div>
     </footer>
-    <script src="js/scripts.js"></script>
+    <script src="../chamber/js/scripts.js"></script>
+    <script src="../lesson7/js/lazy.js"></script>
   </body>
 </html>

@@ -46,6 +46,16 @@
     font-size: 1em;
   }
 
+  /*------------- Discover --------------*/
+
+
+body #images-section {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: none;
+}
+
   .cloudy::after{
     margin: 0 -70px;
   
