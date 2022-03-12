@@ -435,7 +435,8 @@ form fieldset {
 }
 
 form legend{
-  padding:4px 100px;
+  padding: 4px 20%;
+  overflow: hidden;
   background-color: black;
   font-size: 1.3rem;
   color: gold;
@@ -445,7 +446,6 @@ form label.top {
   display: block;
   padding-top: 1rem;
   color: white;
-  font-size: .8rem;
   font-size: 1rem;
 }
 
@@ -457,7 +457,7 @@ form label.top input, form label.top textarea {
   border-radius: 4px;
   padding: .75rem;
   width: 100%;
-  max-width: 20rem;
+  max-width: 50rem;
   background-color: white
 
 }
@@ -480,7 +480,7 @@ form input.submitBtn {
   color: white;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
-  margin: 0 0 2rem 2%;
+  margin: 2rem auto;
   width: 96%;
   max-width: 20rem;
   font-size: 1.5rem;
@@ -489,10 +489,12 @@ form input.submitBtn {
 form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 100%;
+  margin: 0 auto;
+  width: 60%;
   background-color: #001f3f;
 }
+
+
 
 .main-join {
     display: flex;
