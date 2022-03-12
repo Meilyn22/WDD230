@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Join riverdale chamber of commerce">
+    <link rel="stylesheet" href="../css/large.css" />
+    <link rel="stylesheet" href="../css/small.css" />
+    <link rel="stylesheet" href="../css/medium.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Exo&display=swap" rel="stylesheet" />
+    <title>Join Chamber</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="social">
+            <a href="./index.html" class="fa fa-facebook">.</a>
+            <a href="./index.html" class="fa fa-twitter">.</a>
+            <a href="./index.html" class="fa fa-pinterest">.</a>
+            <a href="./index.html" class="fa fa-linkedin">.</a>
+        </nav>
+        <nav>
+            <div class="upper-nav">
+                <div class="pic-text">
+                    <a href="./index.html">
+                        <img class="logo" src="../images/riverdaleNEW.png" alt="homepage-logo" width="80"
+                            height="80" /></a>
+                    <h1 class="logo-text">
+                        <span>Riverdale Chamber</span> <span>of Commerce</span>
+                    </h1>
+                </div>
+                <button id="hamburger" class="hamburger">
+                    <span>&#9776;</span><span>X</span>
+                </button>
+            </div>
+            <ul id="nav-bar" class="nav-ul">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../discovery/index.html">Discovery</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <div class="date_header">
+                <h2>
+                    <span id="day">Saturday</span>:
+                    <span id="date_year">February 07, 2022</span>
+                </h2>
+            </div>
+        </nav>
+    </header>
+    <h1 class="discovery-title">Join Chamber</h1>
+    
+    <main class="main-join">
+        <form action="thanks.html" method="get">
+            <fieldset>
+                <legend>
+                    Member Information
+                </legend>
+
+                <label class="top"> First Name* <input type="text" name="fname" required></label>
+                <label class="top"> Last Name* <input type="text" name="lname" required></label>
+                <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com"
+                        required></label>
+                <label class="top"> Phone* <input type="tel" name="phone" placeholder="1234551234" required> </label>
+                <label class="top"> Position Title <input type="text" name="position"
+                        placeholder="e.g Accounting Manager"></label>
+                <label class="top"> Business Name/title <input type="text" name="business"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership</legend>
+                <label class="sbs"><input type="radio" name="membership" value="individual">Individual Member </label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Member </label>
+                <label class="sbs"><input type="radio" name="membership" value="gold">Gold Member </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>About Business</legend>
+                <label class="top">Business Description <textarea name="description" cols="50" rows="10">
+            </textarea></label>
+                <label><input id="time" type="hidden" name="time" value="timeStamp"></label>
+            </fieldset>
+            <input class="submitBtn " type="submit" value="Join the chamber">
+        </form>
+
+        <article id="member-arc"class="membership">
+
+        <section class="individual">
+            <h2>Individual Membership</h2>
+            <h3>$295/year (non-profit $175)</h3>
+            <ul>
+                <li>Business name and description, website, and social media links on our website directory</li>
+                <li>Post your events on the Chamber’s online Calendar of Events</li>
+                <li>Membership certificate, window sticker, and digital Chamber artwork rights</li>
+
+            </ul>
+        </section>
+
+        <section class="bronze">
+            <h2>Bronze Membership</h2>
+            <h3>$450/year (non-profit $325)</h3>
+            <ul>
+                <li>All Individual benefits</li>
+                <li>Enhanced listing on website directory including logo and second category</li>
+                <li>Free inclusion of your marketing materials in quarterly Roof Top Drop</li>
+                
+
+            </ul>
+        </section>
+
+        <section class="gold">
+            <h2>Gold Membership</h2>
+            <h3>$1,200/year (non-profit $800)</h3>
+            <ul>
+                <li>All Bronze benefits</li>
+                <li>Featured once annually on Chamber Facebook page, boosted to 26,000+ viewers in surrounding area</li>
+                <li>Free standard booth at Town of Superior events (July 4th & Chili Fest)</li>
+            </ul>
+        </section>
+    </article>
+    </main>
+            <footer>
+                <section class="footer-sec">
+                    <div>
+                        <h3>Riverdale Chamber of Commerce</h3>
+                        <h4>25 Brigham Young University Idaho - 83340</h4>
+                    </div>
+                    <div class="footer-i">
+                        <h4>info@riverdalecc.org</h4>
+                        <h4>+(01) 3050-2340</h4>
+                    </div>
+                </section>
+
+                <section class="footer-sec2">
+                    <h5>
+                        &copy; <span id="copyright"></span> Riverdale chamber | Samson O.
+                        Idoko | Wdd 230 Project
+                    </h5>
+                </section>
+                <div id="lastupdated">
+                    <h5>Last Updated:</h5>
+                    <span id="date"></span>
+                </div>
+            </footer>
+            <script src="js/scripts.js"></script>
+</body>
+
+</html>
+
+
+

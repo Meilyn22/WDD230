@@ -87,6 +87,46 @@
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-areas: none;
   }
+
+  #member-arc {
+    display: block;
+    margin-left: -50%;
+    margin-top: 100px;;
+  
+  }
+  
+
+  .individual{
+    width: 400px;
+    background-color: gray;
+    color: white;
+    
+    }
+    
+    .individual h3, .bronze h3, .gold h3 {
+     font-size: .9em;
+     text-align: center;
+    
+    }
+
+    .individual h2, .bronze h2, .gold h2{
+      text-align: center;
+    }
+    
+    .bronze{
+      width: 400px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      background-color: #CD7F32;
+      color: rgb(7, 7, 7);
+      
+      }
+    
+    .gold{
+      width: 400px;
+      background-color: gold;
+      color:rgb(0, 4, 255);
+      
+      }
 }
 
 
@@ -97,10 +137,6 @@
   
   }
 
-
-
-
-
-
+  
 
 }
