@@ -25,3 +25,7 @@ let dateYear = document.querySelector("#date_year")
 
 day.textContent = today.toLocaleDateString(today, {weekday: "long"})
 dateYear.textContent = today.toLocaleString(today, options);
+
+let hidentime = new Date;
+
+document.querySelector("#time").value = hidentime.getTime();
