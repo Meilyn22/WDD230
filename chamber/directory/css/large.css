@@ -1,0 +1,7 @@
+@media only screen and (min-width: 1072px) {
+
+#card-section {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+}

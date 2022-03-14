@@ -29,9 +29,9 @@ img {
 
 .card-section {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 400px;
+    justify-content: center;
     gap: 10px;
-
 }
 
 .switch {
@@ -39,10 +39,16 @@ img {
     justify-content: center;
 }
 
-.list-section {
+main.list section.card-section {
     display: none;
+}
 
+main.list section.list-section {
+    display: block;
+}
 
+main.card section.list-section {
+    display: none;
 }
 
 #card {

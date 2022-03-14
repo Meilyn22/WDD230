@@ -2,13 +2,13 @@ const card = document.querySelector("#card");
 const list = document.querySelector("#list");
 
 list.onclick = () => {
-    document.querySelector("main").classList.remove("card-section")
-    document.querySelector("main").classList.toggle("list-section");
+    document.querySelector("main").classList.remove("card")
+    document.querySelector("main").classList.toggle("list");
 };
 
 card.onclick = () => {
-    document.querySelector("main").classList.remove("list-section")
-    document.querySelector("main").classList.toggle("card-section");
+    document.querySelector("main").classList.remove("list")
+    document.querySelector("main").classList.toggle("card");
 }
 
 const requestURL = "./data.json"
@@ -35,7 +35,7 @@ function displayBusinesses(business) {
     let name = document.createElement("h2");
     let phone = document.createElement("p");
     let iphone = document.createElement("p");
-    let website = document.createElement("p");
+    let website = document.createElement("a");
     let pic = document.createElement("img");
 
     address.textContent = business.address
@@ -48,6 +48,8 @@ function displayBusinesses(business) {
     pic.setAttribute('src', business.image);
     pic.setAttribute('alt', `logo of ${business.name}`);
     pic.setAttribute('loading', 'lazy');
+
+    website.setAttribute("href", business.website)
     
     switchList.appendChild(name)
     switchList.appendChild(laddress)
