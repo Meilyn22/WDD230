@@ -1,0 +1,106 @@
+{
+  "businesses": [
+    {
+      "name": "Albertsons",
+      "image": "images/Albertsons_RGB.svg",
+      "address": "245 W. Riverdale Street, RT 71934",
+      "phone": "208-912-2887",
+      "website": "http://www.albertsons.com"
+    },
+
+    {
+      "name": "Glabia Foods",
+      "image": "images/glanbia-high-resolution-logo.png",
+      "address": "105 E. Riverdale Street, RT 71934",
+      "phone": "208-414-3587",
+      "website": "https://www.glanbianutritionals.com/"
+    },
+
+    {
+      "name": "Heatercraft Marine Products",
+      "image": "images/INNER_DEMON_02_copy_3x_5d2dfbb3-0d7d-425a-b82d-3e91537fd3c2_250x.png",
+      "address": "301 N. Riverdale Street, RT 71934",
+      "phone": "208-254-2597",
+      "website": "https://heatercraft.com/"
+    },
+    {
+      "name": "St. Luke’s Health System",
+      "image": "images/logop.png",
+      "address": "211 E. Riverdale Street, RT 71934",
+      "phone": "208-259-2597",
+      "website": "https://www.saintlukeskc.org/"
+    },
+
+    {
+      "name": "WinCo Foods",
+      "image": "images/logow.png",
+      "address": "40 S. Riverdale Street, RT 71934",
+      "phone": "208-297-4597",
+      "website": "https://www.wincofoods.com"
+    },
+
+    {
+      "name": "Panera Bread",
+      "image": "images/panera-bread-logo-no-mother-bread.svg",
+      "address": "145 W. Riverdale Street, RT 71934",
+      "phone": "208-597-2487",
+      "website": "https://www.panerabread.com"
+    },
+
+    {
+      "name": "J.R. Simplot",
+      "image": "images/simplot_logo_standard.svg",
+      "address": "55 N. Riverdale Street, RT 71934",
+      "phone": "208-759-2527",
+      "website": "https://www.simplot.com/"
+    },
+
+    {
+      "name": "Scentsy",
+      "image": "images/scentsy_logo_purple.svg",
+      "address": "245 S. Riverdale Street, RT 71934",
+      "phone": "208-484-6587",
+      "website": "https://scentsy.com/"
+    },
+
+    {
+      "name": "weyerhaeuser",
+      "image": "images/WY_Logo-Horizontal-Color.png",
+      "address": "11 W. Riverdale Street, RT 71934",
+      "phone": "208-904-2087",
+      "website": "https://www.weyerhaeuser.com"
+    },
+
+    {
+      "name": "",
+      "image": "",
+      "address": "24 W. Riverdale Street, RT 71934",
+      "phone": "208-004-8587",
+      "website": ""
+    },
+
+    {
+      "name": "",
+      "image": "",
+      "address": "244 E. Riverdale Street, RT 71934",
+      "phone": "208-406-7987",
+      "website": ""
+    },
+
+    {
+      "name": "",
+      "image": "",
+      "address": "165 N. Riverdale Street, RT 71934",
+      "phone": "208-424-8187",
+      "website": ""
+    },
+
+    {
+      "name": "",
+      "image": "",
+      "address": "244 N. Riverdale Street, RT 71934",
+      "phone": "208-754-2687",
+      "website": ""
+    }
+  ]
+}

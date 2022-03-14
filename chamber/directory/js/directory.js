@@ -1,0 +1,63 @@
+const card = document.querySelector("#card");
+const list = document.querySelector("#list");
+
+list.onclick = () => {
+    document.querySelector("main").classList.remove("card-section")
+    document.querySelector("main").classList.toggle("list-section");
+};
+
+card.onclick = () => {
+    document.querySelector("main").classList.remove("list-section")
+    document.querySelector("main").classList.toggle("card-section");
+}
+
+const requestURL = "./data.json"
+
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);  // temporary checking for valid response and data parsing
+
+    const businesses = jsonObject['businesses'];
+
+    businesses.forEach(displayBusinesses);
+  });
+
+
+
+function displayBusinesses(business) {
+    let switchCards = document.createElement("div");
+    let switchList = document.createElement("div");
+    let address = document.createElement("p")
+    let laddress = document.createElement("p");
+    let name = document.createElement("h2");
+    let phone = document.createElement("p");
+    let iphone = document.createElement("p");
+    let website = document.createElement("p");
+    let pic = document.createElement("img");
+
+    address.textContent = business.address
+    laddress.textContent = business.address
+    name.textContent = business.name
+    phone.textContent = business.phone
+    iphone.textContent = business.phone
+    website.textContent = business.website
+
+    pic.setAttribute('src', business.image);
+    pic.setAttribute('alt', `logo of ${business.name}`);
+    pic.setAttribute('loading', 'lazy');
+    
+    switchList.appendChild(name)
+    switchList.appendChild(laddress)
+    switchList.appendChild(iphone)
+
+    switchCards.appendChild(pic)
+    switchCards.appendChild(address)
+    switchCards.appendChild(phone)
+    switchCards.appendChild(website)
+
+    document.querySelector(".card-section").appendChild(switchCards);
+    document.querySelector(".list-section").appendChild(switchList);
+}
