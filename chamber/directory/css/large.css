@@ -1,0 +1,88 @@
+@media only screen and (min-width: 1072px) {
+
+    .card-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    
+    }
+
+    .card-section:nth-child(2) img{
+        height: 35%;
+        width: 40%;
+
+    }
+
+    .list-section div {
+        font-size: 1.3em;
+        background-color: none;
+    }
+
+    .list-section div{
+        display: grid;
+        grid-template-areas: "t a p w ";
+        justify-content: space-between;
+        
+    }
+
+    .list-section div:nth-child(even) p,
+    .list-section div:nth-child(even) h2,
+    .list-section div:nth-child(even) a {
+        color: rgb(0, 2, 12);
+        
+    }
+
+
+    .list-section div:nth-child(odd) p,
+    .list-section div:nth-child(odd) h2,
+    .list-section div:nth-child(odd) a {
+        color: white;
+    }
+
+
+    .list-section div:nth-child(odd){
+        background-color: rgb(6, 12, 43);  
+    }
+
+    .list-section div:nth-child(even){
+        background-color: rgba(167, 173, 167, 0.384);  
+    }
+
+    .list-section div:nth-child(1){
+        grid-area: "t";
+        text-align: center;
+        
+    }
+
+    .list-section div:nth-child(2){
+        grid-area: "a";
+        text-align: center;
+        
+        
+    }
+
+    .list-section div:nth-child(3){
+        grid-area: "p";
+        text-align: center;
+        
+    }
+
+    .list-section div:nth-child(4){
+        grid-area: "w";
+        text-align: center;
+        
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+}

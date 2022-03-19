@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Riverdale Chamber of commerce" />
-    <link rel="stylesheet" href="css/large.css" />
+  
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
@@ -55,10 +56,10 @@
         <ul id="nav-bar" class="nav-ul">
           <li><a href="../chamber/index.html">Home</a></li>
           <li><a href="./discovery/index.html">Discovery</a></li>
-          <li><a href="#">Directory</a></li>
+          <li><a href="./directory/directory.html">Directory</a></li>
           <li><a href="./join/index.html">Join</a></li>
           <li><a href="#">Contact</a></li>
-        </ul>
+        </ul>   
 
         <div class="date_header">
           <h2>
@@ -72,8 +73,8 @@
     <main id="main">
       <section class="hero">
         <h1 class="hero_text">Welcome to Riverdale</h1>
-        <button class="call-to-action">Join Chamber</button>
-        <button class="call">Join Chamber</button>
+        <button class="call-to-action" onclick="window.location.href='./join/index.html'">Join Chamber</button>
+        <button class="call" onclick="window.location.href='./join/index.html'">Join Chamber</button>
       </section>
       <section class="event">
         <h2 class="event-header">
@@ -135,23 +136,23 @@
     <footer>
       <section class="footer-sec">
         <div>
-          <h3>Riverdale Chamber of Commerce</h3>
-          <h4>25 Brigham Young University Idaho - 83340</h4>
+          <p>Riverdale Chamber of Commerce</p>
+          <p>25 Brigham Young University Idaho - 83340</p>
         </div>
         <div class="footer-i">
-          <h4>info@riverdalecc.org</h4>
-          <h4>+(01) 3050-2340</h4>
+          <p>info@riverdalecc.org</p>
+          <p>+(01) 3050-2340</p>
         </div>
       </section>
 
       <section class="footer-sec2">
-        <h5>
+        <p>
           &copy; <span id="copyright"></span> Riverdale chamber | Samson O.
           Idoko | Wdd 230 Project
-        </h5>
+        </p>
       </section>
       <div id="lastupdated">
-        <h5>Last Updated:</h5>
+        <p>Last Updated:</p>
         <span id="date"></span>
       </div>
     </footer>

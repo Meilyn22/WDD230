@@ -3,23 +3,57 @@
 
 }
 
-img {
-    width: 200px;
-}
-
 .card-section div{
     display: flex;
     font-size: 1.2rem;
-    line-height: 1.5;
+    line-height: 3;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    border: 1px solid rgb(145, 144, 144);
     padding-top: 20px;
     padding-bottom: 30px;
     height: 300px;
     background-color: white;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin-bottom: 20px;
+}
+
+.card-section:nth-child(2) img{
+    width: 40%;
+    height: 30%;
+}
+
+.list-section div{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.9;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(250, 251, 252);
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.list-section div p {
+    color: rgb(227, 243, 245);
+    font-size: .8em;
+    font-weight: normal ;
+}
+
+.list-section div h2 {
+    color: white;
+    font-size: 1em;
+
+
+
+}
+.list-section div a {
+    font-size: .7em;
+    color: rgb(228, 224, 8);
+}
+
+.list-section div {
+    background-color: rgb(2, 12, 59);
 }
 
 .card-section p {
@@ -28,10 +62,9 @@ img {
 }
 
 .card-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-
+    display: block;
+    background-color: white;
+    border: none;
 }
 
 .switch {
@@ -40,8 +73,9 @@ img {
 }
 
 .list-section {
-    display: none;
-
+    display: block;
+    background-color: white;
+    border: none;
 
 }
 

@@ -10,6 +10,10 @@ h1,h2,h3,h4,h5,a {
   font-family: "Exo", sans-serif;
 }
 
+h2 {
+  font-size: 1.1em;
+}
+
 p {
   font-family: "Advent Pro", sans-serif;
 }

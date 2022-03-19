@@ -61,11 +61,6 @@ body #images-section {
   
   }
 
-  .new-release {
-    text-align: center;
-    font-size: 1.5em;
-  }
-
   main {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px 300px  300px 1fr;
@@ -84,8 +79,11 @@ body #images-section {
 
   .new-release {
     grid-area: n;
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: 700;
+    color: black;
+    background-color: rgb(241, 247, 239);
+    text-align: center;
   }
 
   .event {

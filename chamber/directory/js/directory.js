@@ -35,7 +35,8 @@ function displayBusinesses(business) {
     let name = document.createElement("h2");
     let phone = document.createElement("p");
     let iphone = document.createElement("p");
-    let website = document.createElement("p");
+    let website = document.createElement("a");
+    let iwebsite = document.createElement("a");
     let pic = document.createElement("img");
 
     address.textContent = business.address
@@ -44,14 +45,19 @@ function displayBusinesses(business) {
     phone.textContent = business.phone
     iphone.textContent = business.phone
     website.textContent = business.website
+    iwebsite.textContent = business.website
 
     pic.setAttribute('src', business.image);
     pic.setAttribute('alt', `logo of ${business.name}`);
     pic.setAttribute('loading', 'lazy');
+
+    website.setAttribute("href", business.website)
+    iwebsite.setAttribute("href", business.website)
     
     switchList.appendChild(name)
     switchList.appendChild(laddress)
     switchList.appendChild(iphone)
+    switchList.appendChild(iwebsite)
 
     switchCards.appendChild(pic)
     switchCards.appendChild(address)
