@@ -2,13 +2,13 @@ const card = document.querySelector("#card");
 const list = document.querySelector("#list");
 
 list.onclick = () => {
-    document.querySelector("main").classList.remove("card-section")
-    document.querySelector("main").classList.toggle("list-section");
+    document.querySelector("main").classList.remove("card")
+    document.querySelector("main").classList.toggle("list");
 };
 
 card.onclick = () => {
-    document.querySelector("main").classList.remove("list-section")
-    document.querySelector("main").classList.toggle("card-section");
+    document.querySelector("main").classList.remove("list")
+    document.querySelector("main").classList.toggle("card");
 }
 
 const requestURL = "./data.json"
