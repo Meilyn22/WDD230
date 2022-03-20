@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,a {
 }
 
 h2 {
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 p {
@@ -141,8 +141,9 @@ main section {
 footer {
   background-color: black;
   color: #FFE440;
-  font-size: 1em;
+  font-size: 1.2em;
   text-align: center;
+  font-weight: bold;
 }
 
 .footer-sec2,
