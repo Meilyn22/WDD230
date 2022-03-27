@@ -2,14 +2,21 @@ const card = document.querySelector("#card");
 const list = document.querySelector("#list");
 
 list.onclick = () => {
-    document.querySelector("main").classList.remove("card")
-    document.querySelector("main").classList.toggle("list");
+    //document.querySelector("#card-section").classList.remove("card-section")
+    document.querySelector("#list-section").style.display = "grid";
+    document.querySelector("#card-section").style.display = "none";
+    document.querySelector("#list-section").classList.toggle("list-section");
+    document.querySelector("#list-section").classList.toggle("list-section");
 };
 
 card.onclick = () => {
-    document.querySelector("main").classList.remove("list")
-    document.querySelector("main").classList.toggle("card");
-}
+  document.querySelector("#list-section").style.display = "none";
+  document.querySelector("#card-section").style.display = "grid";
+  document.querySelector("#card-section").classList.toggle("card-section");
+  document.querySelector("#card-section").classList.toggle("card-section");
+};
+
+
 
 const requestURL = "./data.json"
 

@@ -165,12 +165,23 @@ footer {
 
 }
 
-.date_header {
+.date_header{
   display: flex ;
   color: white ;
   justify-content: center ;
   padding: 20px ;
   font-size: 0.55em ;
+}
+
+#banner {
+  display: none;
+  color: white;
+  font-size: 0.3rem;
+  text-align: center;
+  background-color: #001f3f;
+  padding: 20px;
+
+
 }
 
 .hero {
@@ -211,17 +222,21 @@ footer {
 
 .weather {
   display: flex;
-  font-size: 0.9em;
   flex-direction: column;
+  font-size: 0.8em;
   align-items: center;
-  color: white;
   background-color: #002147;
+  color: yellow;
+}
+
+.weather h2:nth-child(1), .weather h2:nth-child(5) {
+  color: white;
 }
 
 .cloudy::after{
   display: flex;
   content: '';
-  margin: 0 -150px;
+  margin: 0 -5000px;
   border: 2px solid white;
 }
 
@@ -470,7 +485,6 @@ form label.top input, form label.top textarea {
 form label.sbs {
   display: block;
   font-size: 1.2rem;
-  padding: 0.75;
   color: white;
 }
 
@@ -495,7 +509,7 @@ form {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 60%;
+  width: 100%;
   background-color: #001f3f;
 }
 

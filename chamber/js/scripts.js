@@ -26,6 +26,10 @@ let dateYear = document.querySelector("#date_year")
 day.textContent = today.toLocaleDateString(today, {weekday: "long"})
 dateYear.textContent = today.toLocaleString(today, options);
 
-let hidentime = new Date;
+if(today.getDay() == 1 | today.getDay() == 2) {
+   document.getElementById("banner").style.display = "block";
+};
 
-document.querySelector("#time").value = hidentime.getTime();
+//let hidentime = new Date;
+
+//document.querySelector("#time").value = hidentime.getTime();

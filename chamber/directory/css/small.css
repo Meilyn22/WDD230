@@ -71,8 +71,11 @@
     display: flex;
     justify-content: center;
 }
+#list-section {
+    display: none;
+}
 
-.list-section {
+main .list-section {
     display: block;
     background-color: white;
     border: none;
@@ -88,10 +91,21 @@
     border: none;
 }
 
+#card:hover, #card:focus {
+    color:red;
+    background-color:rgb(2, 12, 59);
+}
+
+
 #list {
     padding: 20px;
     margin-bottom: 15px;
     color: white;
     background-color:green;
     border: none;
+}
+
+#list:hover, #list:focus {
+    color:red;
+    background-color:rgb(2, 12, 59);
 }
