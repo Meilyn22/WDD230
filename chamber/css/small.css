@@ -246,79 +246,48 @@ footer {
   color: #FFE440;
 
 }
-.spotlight1 {
-  background-color: #002147;
-  color: white;
-}
 
 .spotlight1 {
   display: flex;
   flex-direction: column;
-  font-size: 0.9em;
-  color: white;
+  justify-content: space-around;
   font-weight: bold;
-  justify-content: end;
-  font-size: 0.8em;
-  background-image: url(../images/stocks.webp);
-  background-position: top; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.spotlight1-header {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: rgba(10, 112, 41, 0.8);
-  margin: 0 -20px -20px;
-  padding: 10px 0;
-}
+
 
 .spotlight2 {
   display: flex;
   flex-direction: column;
-  font-size: 0.9em;
-  color: white;
+  justify-content: space-around;;
   font-weight: bold;
-  justify-content: end;
-  font-size: 0.8em;
-  background-image: url(../images/vacation3.webp);
-  background-position: top; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  
 }
 
-.spotlight2-header {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: rgba(10, 112, 41, 0.8);
-  margin: 0 -20px -20px;
-  padding: 10px 0;
+.spotlight1 img, .spotlight2 img, .spotlight3 img {
+  width: 20%;
+  height: 30%;
+}
+
+.spotlight2 h2, .spotlight1 h2, .spotlight3 h2 {
+  background-color: rgb(2, 2, 70);
+  color: white;
+  padding: 10px
+
+}
+
+.spotlight1 a:hover, .spotlight2 a:hover, .spotlight3 a:hover {
+  color: rgb(3, 56, 3);
 }
 
 .spotlight3 {
   display: flex;
   flex-direction: column;
-  font-size: 0.9em;
-  color: white;
+  justify-content: space-around;
   font-weight: bold;
-  justify-content: end;
-  font-size: 0.8em;
-  background-image: url(../images/seminar.webp);
-  background-position: top; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+
 }
 
-.spotlight3-header {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: rgba(10, 112, 41, 0.8);
-  margin: 0 -20px -20px;
-  padding: 10px 0;
-}
 .new-release {
   display: flex;
   flex-direction: column;

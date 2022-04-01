@@ -16,10 +16,6 @@
     font-size: 1.2em;
   }
 
-  #banner{
-
-
-  }
 
   nav .date_header{
     font-size: 0.6em;
@@ -131,6 +127,11 @@
       background-color: gold;
       color:rgb(0, 4, 255);
       
+      }
+
+      .spotlight1 img, .spotlight2 img, .spotlight3 img {
+        width: 100%;
+        
       }
 }
 

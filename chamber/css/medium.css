@@ -105,6 +105,11 @@ body #images-section {
   .weather {
     grid-area: w;
   }
+
+  .spotlight1 img, .spotlight2 img, .spotlight3 img {
+    width: 100%;
+    
+  }
 }
 
 

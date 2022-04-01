@@ -5,7 +5,8 @@
       "image": "images/Albertsons_RGB.svg",
       "address": "245 W. Riverdale Street, RT 71934",
       "phone": "208-912-2887",
-      "website": "http://www.albertsons.com"
+      "website": "http://www.albertsons.com",
+      "membership": "gold"
     },
 
     {
@@ -13,7 +14,8 @@
       "image": "images/glanbia-high-resolution-logo.png",
       "address": "105 E. Riverdale Street, RT 71934",
       "phone": "208-414-3587",
-      "website": "https://www.glanbianutritionals.com/"
+      "website": "https://www.glanbianutritionals.com/",
+      "membership": "silver"
     },
 
     {
@@ -21,14 +23,16 @@
       "image": "images/INNER_DEMON_02_copy_3x_5d2dfbb3-0d7d-425a-b82d-3e91537fd3c2_250x.png",
       "address": "301 N. Riverdale Street, RT 71934",
       "phone": "208-254-2597",
-      "website": "https://heatercraft.com/"
+      "website": "https://heatercraft.com/",
+      "membership": "bronze"
     },
     {
       "name": "St. Luke’s Health System",
       "image": "images/logop.png",
       "address": "211 E. Riverdale Street, RT 71934",
       "phone": "208-259-2597",
-      "website": "https://www.saintlukeskc.org/"
+      "website": "https://www.saintlukeskc.org/",
+      "membership": "bronze"
     },
 
     {
@@ -36,7 +40,8 @@
       "image": "images/logow.png",
       "address": "40 S. Riverdale Street, RT 71934",
       "phone": "208-297-4597",
-      "website": "https://www.wincofoods.com"
+      "website": "https://www.wincofoods.com",
+      "membership": "gold"
     },
 
     {
@@ -44,7 +49,8 @@
       "image": "images/panera-bread-logo-no-mother-bread.svg",
       "address": "145 W. Riverdale Street, RT 71934",
       "phone": "208-597-2487",
-      "website": "https://www.panerabread.com"
+      "website": "https://www.panerabread.com",
+      "membership": "silver"
     },
 
     {
@@ -52,7 +58,8 @@
       "image": "images/simplot_logo_standard.svg",
       "address": "55 N. Riverdale Street, RT 71934",
       "phone": "208-759-2527",
-      "website": "https://www.simplot.com/"
+      "website": "https://www.simplot.com/",
+      "membership": "gold"
     },
 
     {
@@ -60,7 +67,8 @@
       "image": "images/scentsy_logo_purple.svg",
       "address": "245 S. Riverdale Street, RT 71934",
       "phone": "208-484-6587",
-      "website": "https://scentsy.com/"
+      "website": "https://scentsy.com/",
+      "membership": "gold"
     },
 
     {
@@ -68,39 +76,44 @@
       "image": "images/WY_Logo-Horizontal-Color.png",
       "address": "11 W. Riverdale Street, RT 71934",
       "phone": "208-904-2087",
-      "website": "https://www.weyerhaeuser.com"
+      "website": "https://www.weyerhaeuser.com",
+      "membership": "silver"
     },
 
     {
-      "name": "",
-      "image": "",
+      "name": "Motivated",
+      "image": "images/motivated.png",
       "address": "24 W. Riverdale Street, RT 71934",
       "phone": "208-004-8587",
-      "website": ""
+      "website": "https://www.motivatedmornings.work/",
+      "membership": "silver"
     },
 
     {
-      "name": "",
-      "image": "",
+      "name": "BambooHR",
+      "image": "images/bamboohr.svg",
       "address": "244 E. Riverdale Street, RT 71934",
       "phone": "208-406-7987",
-      "website": ""
+      "website": "https:/www.bamboohr.com/",
+      "membership": "gold"
     },
 
     {
-      "name": "",
-      "image": "",
+      "name": "Health Equity ",
+      "image": "images/healthsvg.svg",
       "address": "165 N. Riverdale Street, RT 71934",
       "phone": "208-424-8187",
-      "website": ""
+      "website": "https://www.healthequity.com/",
+      "membership": "silver"
     },
 
     {
-      "name": "",
-      "image": "",
+      "name": "WorkFront",
+      "image": "images/workfront.png",
       "address": "244 N. Riverdale Street, RT 71934",
       "phone": "208-754-2687",
-      "website": ""
+      "website": "https://topworkplaces.com",
+      "membership": "gold"
     }
   ]
 }
