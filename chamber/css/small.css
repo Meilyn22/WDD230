@@ -233,13 +233,6 @@ footer {
   color: white;
 }
 
-.cloudy::after{
-  display: flex;
-  content: '';
-  margin: 0 -5000px;
-  border: 2px solid white;
-}
-
 .fas{
   font-size: 7em;
   color: #FFE440;

@@ -5,15 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Riverdale Chamber of commerce" />
+  
     <link rel="stylesheet" href="../css/small.css" />
     <link rel="stylesheet" href="../css/medium.css" />
     <link rel="stylesheet" href="../css/large.css" />
-
-    
-    <link rel="stylesheet" href="css/small.css" />
-    <link rel="stylesheet" href="css/medium.css" />
-    <link rel="stylesheet" href="css/large.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
@@ -39,18 +35,20 @@
         <a href="./index.html" class="fa fa-pinterest">.</a>
         <a href="./index.html" class="fa fa-linkedin">.</a>
       </nav>
-
       <nav>
         <div class="upper-nav">
           <div class="pic-text">
             <a href="../index.html">
-              <img class="logo" src="../images/riverdaleNEW.png"
-              alt="homepage-logo" width="80" height="80" />  </a>
-
+              <img
+                class="logo"
+                src="../images/riverdaleNEW.png"
+                alt="homepage-logo"
+                width="80"
+                height="80"
+            /></a>
             <h1 class="logo-text">
               <span>Riverdale Chamber</span> <span>of Commerce</span>
             </h1>
-       
           </div>
           <button id="hamburger" class="hamburger">
             <span>&#9776;</span><span>X</span>
@@ -61,8 +59,8 @@
           <li><a href="../discovery/index.html">Discovery</a></li>
           <li><a href="../directory/directory.html">Directory</a></li>
           <li><a href="../join/index.html">Join</a></li>
-          <li><a href="../contact/contact.html">Contact</a></li>
-        </ul>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>   
 
         <div class="date_header">
           <h2>
@@ -70,55 +68,54 @@
             <span id="date_year">February 07, 2022</span>
           </h2>
         </div>
+
       </nav>
+      <div id="banner">
+        <h1>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h1>
+      </div>
     </header>
 
-    <h1 class="discovery-title">Directory</h1>
-    
+    <main id="contact-main">
+        <h1>Contact Us</h1>
 
-    <main id="directory-section">
+        <form method="get" action="../join/thanks.html">
+            <label>Name*<input type="text" name="name" required></label>
+            <label>Email*<input type="email" name="email" placeholder="james@example.com" required></label>
+            <label>Phone*<input type="tel" name="tel" required></label>
+            <label>Message*<textarea name="message" cols="50" rows="8" required></textarea></label>
+            <input class="button" type="submit" name="submitBtn" value="Send Message">
+        </form>
 
-        <div class="switch">
-            <button  id="card">
-                <span class="material-icons">apps</span>
-            </button>
-            
-            <button id="list">
-                <span class="material-icons">list</span>
-            </button>
-        </div>
 
-        <section id="card-section" class="card-section">
-        </section>
-
-        <section id="list-section" class="list-section"></section>
     </main>
 
     <footer>
-      <section class="footer-sec">
-        <div>
-          <p>Riverdale Chamber of Commerce</p>
-          <p>25 Brigham Young University Idaho - 83340</p>
+        <section class="footer-sec">
+          <div>
+            <p>Riverdale Chamber of Commerce</p>
+            <p>25 Brigham Young University Idaho - 83340</p>
+          </div>
+          <div class="footer-i">
+            <p>info@riverdalecc.org</p>
+            <p>+(01) 3050-2340</p>
+          </div>
+        </section>
+  
+        <section class="footer-sec2">
+          <p>
+            &copy; <span id="copyright"></span> Riverdale chamber | Samson O.
+            Idoko | Wdd 230 Project
+          </p>
+        </section>
+        <div id="lastupdated">
+          <p>Last Updated:</p>
+          <span id="date"></span>
         </div>
-        <div class="footer-i">
-          <p>info@riverdalecc.org</p>
-          <p>+(01) 3050-2340</p>
-        </div>
-      </section>
+      </footer>
+      <script src="../js/scripts.js"></script>
+      <script src="../js/weather.js"></script>
+    </body>
+  </html>
 
-      <section class="footer-sec2">
-        <p>
-          &copy; <span id="copyright"></span> Riverdale chamber | Samson O.
-          Idoko | Wdd 230 Project
-        </p>
-      </section>
-      <div id="lastupdated">
-        <p>Last Updated:</p>
-        <span id="date"></span>
-      </div>
-    </footer>
-    <script src="./js/directory.js"></script>
-    <script src="../js/scripts.js"></script>
-    <script src="/lesson7/js/lazy.js"></script>
-  </body>
-</html>
+
+
