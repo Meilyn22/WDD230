@@ -15,7 +15,6 @@
 
     .list-section div {
         font-size: 1.3em;
-        background-color: none;
     }
 
     .list-section div{
@@ -49,26 +48,22 @@
     }
 
     .list-section div:nth-child(1){
-        grid-area: "t";
         text-align: center;
         
     }
 
     .list-section div:nth-child(2){
-        grid-area: "a";
         text-align: center;
         
         
     }
 
     .list-section div:nth-child(3){
-        grid-area: "p";
         text-align: center;
         
     }
 
     .list-section div:nth-child(4){
-        grid-area: "w";
         text-align: center;
         
     }
