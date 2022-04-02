@@ -1,37 +1,9 @@
+@media only screen and (min-width: 1072px) {
+
 #contact-main {
     margin: 30px auto;
     display: block;
-    width: 500px;
+    width: 700px;
 }
 
-label {
-    text-align: center;
-    margin: 2em;
-    color: white;
-
 }
-
-input {
-    width: 90%;
-    height: 50px;
-    margin-left: 30px;
-    margin: 5px auto;
-}
-
-textarea {
-    display: block;
-    margin: 5px auto;
-    width: 90%;
-}
-
-.button {
-    margin: 0 auto;
-    background-color: rgb(20, 1, 1);
-    color: rgb(250, 243, 243);
-    width: 40%;
-}
-
-h1 {
-    text-align: center;
-}
-

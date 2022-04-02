@@ -1,0 +1,36 @@
+#contact-main {
+    margin: 30px auto;
+    display: block;
+}
+
+label {
+    text-align: center;
+    margin: 3em;
+    color: white;
+}
+
+input {
+    display: block;
+    width: 90%;
+    height: 50px;
+    margin: 5px auto;
+}
+
+textarea {
+    display: block;
+    margin: 5px auto;
+    width: 90%;
+}
+
+.button {
+    margin: 0 auto;
+    background-color: rgb(20, 1, 1);
+    color: rgb(250, 243, 243);
+    width: 40%;
+}
+
+h1 {
+    text-align: center;
+}
+
+
