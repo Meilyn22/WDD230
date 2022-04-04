@@ -6,4 +6,9 @@
 .first-section {
     background-image: url("../images/medium-hero.webp");
 }
+
+.rsvBtn {
+    margin-top: -250px;
+    margin-left: 250px ;
+}
 }

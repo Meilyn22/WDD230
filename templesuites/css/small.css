@@ -3,7 +3,7 @@
 body{
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
-    margin:0;
+    margin:0 auto;
     padding:0;
 }
 
@@ -132,8 +132,9 @@ body{
     font-size: 1.3em;
     font-weight: 700;
     color: white;
-    margin-top: -250px;
-    margin-left: 250px ;
+
+    margin-top: -41px;
+    margin-left: -8px;
     padding: 20px;
 
 }
@@ -147,3 +148,27 @@ body{
 }
 
 /* ----- Weather ----- */
+.forecast {
+    display: flex;
+    justify-content: center;
+    background-color: #2e0000;
+    padding: 10px;
+}
+
+#forecast {
+    text-align: center;
+    background-color: #dc3545;
+    color: aliceblue;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.forecast div {
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.card {
+    display: none;
+}
