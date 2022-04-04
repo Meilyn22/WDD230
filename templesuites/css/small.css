@@ -29,12 +29,12 @@ body{
     border: none;
     font-size: 1.2em;
     font-weight: 700;
-    background-color: black;
+    background-color: #212529;
     color: yellow;
 }
 
 .logo-nav {
-    background-color: black;
+    background-color: #212529;
     color: white;
     font-size: 0.8em;
 }
@@ -171,4 +171,82 @@ body{
 
 .card {
     display: none;
+}
+
+/* --- footer ---*/
+
+footer {
+    background-color: #212529;
+    color: white;
+
+
+}
+
+.foot-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.foot-contact a {
+    color: red;
+    text-decoration: none;
+}
+
+.foot-nav li {
+    list-style: none;
+}
+
+.foot-nav li a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+
+}
+
+.foot-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot-last {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lastupdated {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-temp, .temp-h2 {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.temp-h2 {
+background-color: #dc3545;
+color: white;
+}
+
+.image-temp {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.text-area {
+    margin-left: 10px;
+    line-height: 2;
+    padding: 20px;
+    font-weight: 400;
 }

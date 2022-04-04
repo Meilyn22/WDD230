@@ -60,13 +60,14 @@
                 <li>Indoor pool</li>
                 <li>Temple shuttle</li>
                 <li>high-speed WiFi</li>
-                <li>Smart tvs</li>
                 </ul>
             </div> 
         </section>
+
         <div class="rsvDiv">
             <button class="rsvBtn">Book Reservation</button>
         </div>
+
         <section class="big-sec">
         <div class="card">
             <div class="search">
@@ -74,37 +75,93 @@
                 type="text"
                 class="search-bar"
                 placeholder="Search"
-                spellcheck="false"
-              />
+                spellcheck="false" />
               <button class="weather-button">
-                <img src="./icons/search.png" class="magni" />
+                <img src="./icons/search.png" class="magni" alt="icon" />
               </button>
               <!-- <button></button> -->
             </div>
             <div class="weather">
-              <h2 class="city"></h2>
-              <h3 class="date"></h3>
-              <h1 class="temp"></h1>
+              <h2 class="city">.</h2>
+              <h3 class="date">.</h3>
+              <h1 class="temp">.</h1>
               <div class="icdes">
-                <img src="http://openweathermap.org/img/wn/50n.png" class="icon" />
+                <img src="http://openweathermap.org/img/wn/50n.png" class="icon" alt="weather icon" />
                 <div class="description"></div>
               </div>
               <div class="humidity"></div>
               <div class="windspeed"></div>
             </div>
           </div>
+
           <section class="forecast-sec">
-            <h1 id="forecast">Next 3 Days Forecast in Bethesda</h1>
-            <div class="forecast">
-                
-            </div>
+            <h2 id="forecast">Next 3 Days Forecast in Bethesda</h2>
+            <div class="forecast"> </div>
+          </section>
         </section>
-    </main>
+            
+        <h2 class="temp-h2">Featured Temple</h2>
+            <div class="ft-temple">
+                <img class="image-temp" src="images/temple.webp" alt="picture of the lds temple washington" width="500" height="300">
+
+                <div class="text-area">
+                <p><strong>Announcement: </strong> 15 November 1968</p>
+                <p><strong>Groundbreaking and Site Dedication: </strong> 7 December 1968 by Hugh B. Brown</p>
+                <p><strong>Public Open House:</strong> 17 September–2 November 1974</p>
+                <p></p><strong>Dedication:</strong>  19–22 November 1974 by Spencer W. Kimball
+                <p><strong>Public Open House:</strong> 28 April–11 June 2022</p>
+                <p><strong>Rededication:</strong> 14 August 2022</p>
+                <p><strong>Site:</strong>52 acres  |  21.0 hectares </p>
+                <p><strong>Exterior Finish:</strong> Reinforced concrete sheathed in 173,000 square feet of Alabama white marble</p>
+                <p><strong>Architectural Features: </strong>Six attached spires with an angel Moroni statue</p>
+                <p><strong>Ordinance Rooms:</strong> Six instruction rooms, fourteen sealing rooms, and one baptistry</p>
+                <p><strong>Total Floor Area: </strong> 160,000 square feet  |  14,864 square meters</p>
+
+                <p>The temple was dedicated in 1974 after an open house that attracted over 750,000 people, 
+                    including several international dignitaries. 
+                    The temple was the first temple built by the church east of the Mississippi River since 1846, 
+                    when the original Nauvoo Temple was dedicated.
+                </p>
+                </div>
+            </div>
+          </main>
 
     <footer>
+        <div class="wrapper">
+        <section class="foot-contact">
+            <h3>
+                Contact us
+            </h3>
+            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+            <p> +1 801-404-2885 </p>
+            <p>info@templeinn.lds</p>
+            <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832351,-77.0976454,17z/data=!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">Map Link</a>
+        </section>
 
+        <nav class="foot-nav">
+            <h3>Navigation</h3>
+            <ul class="foot-nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Temple</a></li>
+                <li><a href="#">Reservation</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <p class="foot-last">
+            &copy; <span id="copyright"></span>Temple-Inn & Suites | Samson O.
+            Idoko | Wdd 230 Project.
+        </p>
+
+        <div id="lastupdated">
+            <p>Last Updated:</p>
+            <span id="date"></span>
+          </div>
+        </div>
     </footer>
     <script src="js/weather.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/modified.js"></script>
 </body>
 </html>
