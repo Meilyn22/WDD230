@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;1,100;1,300;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/weather.css">
+    <title>Temple Inn & Suites - Homepage</title>
+</head>
+<body>
+    <header>
+        <nav class="social-nav">
+            <h1>Call Us: +1 801-404-2885</h1>
+            <h2>info@templeinn.lds</h2>
+
+            <div class="icons">
+                <a href="#"><img class="icons1" src="icons/facebook.png" width=30 height=30 alt="facebook logo">
+                </a>
+                <a href="#"> <img class="icons2" src="icons/instagram.png" width=30 height=30 alt="instagram logo">
+                </a>
+            </div>
+        
+        </nav>
+
+        <nav class="logo-nav">
+        <div class = "logo">
+            <img src="images/temple-image.webp" alt="temple logo" width="80" height="80">
+                <h1 class="head-text"> 
+                    Temple-Inn & Suites
+                </h1>
+        <button id="hamburger" class="hamburger">
+            <span>MENU &#9776;</span><span> CLOSE X</span>
+          </button>
+        </div>
+    </nav>
+        <nav id="navigation">
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Temple</a></li>
+                <li><a href="#">Reservation</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="first-section">
+            <div class="reservationBtn">
+                <h2>Free Amenities</h2>
+                <ul>
+                <li>Breakfast</li>
+                <li>Exercise/workout room</li>
+                <li>Indoor pool</li>
+                <li>Temple shuttle</li>
+                <li>high-speed WiFi</li>
+                <li>Smart tvs</li>
+                </ul>
+            </div> 
+        </section>
+        <div class="rsvDiv">
+            <button class="rsvBtn">Book Reservation</button>
+        </div>
+
+        <div class="card">
+            <div class="search">
+              <input
+                type="text"
+                class="search-bar"
+                placeholder="Search"
+                spellcheck="false"
+              />
+              <button class="weather-button">
+                <img src="./icons/search.png" class="magni" />
+              </button>
+              <!-- <button></button> -->
+            </div>
+            <div class="weather">
+              <h2 class="city"></h2>
+              <h3 class="date"></h3>
+              <h1 class="temp"></h1>
+              <div class="icdes">
+                <img src="http://openweathermap.org/img/wn/50n.png" class="icon" />
+                <div class="description"></div>
+              </div>
+              <div class="humidity"></div>
+              <div class="windspeed"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="forecast-sec">
+            <h1 id="forecast">Next 3 Days Forecast in Bethesda</h1>
+            <div class="forecast">
+                
+            </div>   
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="js/weather.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>

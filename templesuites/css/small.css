@@ -1,0 +1,149 @@
+/*----- Body of website ---- */
+
+body{
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+/*----- Top Navigation ------*/
+
+.social-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #dc3545;
+    color: #f8f9fa;
+    font-size: 10px;
+
+}
+
+.icons2 {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/* ---- Hamburger and Nav ------*/
+
+.hamburger {
+    border: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    background-color: black;
+    color: yellow;
+}
+
+.logo-nav {
+    background-color: black;
+    color: white;
+    font-size: 0.8em;
+}
+
+.logo {
+    display: flex;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.logo .head-text {
+    flex: 1;
+}
+
+
+
+.nav-list li a{
+    display: flex;
+    justify-content: center;
+    color: #f8f9fa;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.nav-list li a:hover{
+    color: royalblue;
+}
+
+.nav-list{
+    display: block;
+    
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+#navigation {
+    display: none;
+    background-color: #2e0000;
+    padding: 20px;
+}
+
+#navigation.open {
+    display: block;
+}
+
+
+.hamburger.open span:nth-child(1) {
+    display: none
+  }
+  
+  .hamburger.open span:nth-child(2) {
+    display: block
+  }
+  
+  .hamburger span:nth-child(1) {
+    display: block
+  }
+  
+  .hamburger span:nth-child(2) {
+    display: none
+  }
+
+  /*----- main area ------*/
+.first-section {
+    background-image: url("../images/small-hero.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reservationBtn {
+    background-color: rgba(37, 6, 6, 0.7);
+    color: white;
+    padding: 20px;
+    font-size: 1em;
+}
+
+.reservationBtn li {
+    color: yellow;
+    font-weight: bold;
+    list-style: square;
+    line-height: 3;
+}
+
+.rsvBtn {
+    position: absolute;
+    background-color: #250606;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: white;
+    margin-top: -250px;
+    margin-left: 250px ;
+    padding: 20px;
+
+}
+
+.rsvDiv {
+    display: flex;
+    padding: 10px;
+    background-color: #571f10;
+    justify-content: center;
+
+}
+
+/* ----- Weather ----- */
