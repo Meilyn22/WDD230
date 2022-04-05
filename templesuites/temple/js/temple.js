@@ -62,7 +62,6 @@ function displayTemples(temple) {
     card.appendChild(groundB)
     card.appendChild(dedicated)
     card.appendChild(rededicated)
-    console.log(card)
 
     document.querySelector('div.cards').appendChild(card);
 
