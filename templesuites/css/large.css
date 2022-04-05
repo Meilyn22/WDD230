@@ -164,4 +164,9 @@
       max-width: 500px;
     }
 
+    .cards {
+      gap: 40px;
+      margin: 20px 200px;
+  
+  }
 }

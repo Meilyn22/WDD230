@@ -7,12 +7,6 @@ let weather = {
         then((response)=> response.json()).then((data)=> this.displayWeather(data));
     },
 
-    fetchDays: function (city){
-        fetch("https://api.openweathermap.org/geo/1.0/direct?q=" 
-        + city + "&limit=5&appid=" + this.apikey).
-        then((response)=> response.json()).then((data)=> this.displayDays(data));
-    },
-
     displayWeather : function(data) {
         const {name} = data;
         const {icon, description} = data.weather[0];
@@ -47,7 +41,6 @@ if(event.key=="Enter"){
 });
 
 weather.fetchWeather("Bethesda");
-weather.fetchDays("Bethesda");
 
 
 function range(start, end) {

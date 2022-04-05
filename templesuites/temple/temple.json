@@ -1,0 +1,98 @@
+{
+"temples" : [
+    
+    {
+        "templeName": "Columbia South Carolina Temple",
+        "address": "2905 Trotter Rd, Hopkins SC 29061-9573, United States",
+        "email": "columbia@thechurchofjesuschrist.org",
+        "phone": "+1 803-647-9472",
+        "services": ["No clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"],
+        "ordinanceSchedule": "Available by appointment only",
+        "sessionSchedule": "By appointment",
+        "closureSchedule": ["Monday, 11 July 2022 - Monday, 25 July 2022",
+            "Saturday, 1 October 2022",
+            "Thursday, 24 November 2022",
+            "Saturday, 24 December 2022"],
+        "history": {
+            "announced": "11 September 1998",
+            "groundbreaking": "5 December 1998",
+            "dedicated": "16 October 1999",
+            "rededicated": "No"
+             },
+        "photo": "images/columbia-temple.jpeg"
+
+    },
+
+{
+    "templeName": "Cedar City Utah Temple",
+    "address": "280 South Cove Dr Cedar City UT 84720 United States",
+    "email": "cedar@thechurchofjesuschrist.org",
+    "phone": "+1 435-572-4150",
+    "services": ["Clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"],
+    "ordinanceSchedule": "Available by appointment only",
+    "sessionSchedule": "By appointment",
+    "closureSchedule": ["Monday, 11 April 2022 - Monday, 25 April 2022",
+        "Saturday, 1 October 2022",
+        "Monday, 10 October 2022 - Monday, 24 October 2022",
+        "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+        "Saturday, 24 December 2022 - Sunday, 25 December 2022",
+        "Saturday, 31 December 2022 - Sunday, 1 January 2023"],
+    "history": {
+        "announced": "6 April 2013",
+        "groundbreaking": "8 August 2015",
+        "dedicated": "10 December 2017",
+        "rededicated": "No"
+         },
+    "photo": "images/cedar-temple.jpeg"
+
+},
+
+{
+    "templeName": "Washington D.C. Temple",
+    "address": "9900 Stoneybrook Dr, Kensington MD 20895-3199, United States",
+    "email": "stoneybrook@thechurchofjesuschrist.org",
+    "phone": "+1 301-588-0650",
+    "services": ["Closed"],
+    "ordinanceSchedule": "Available by appointment only",
+    "sessionSchedule": "By appointment",
+    "closureSchedule": ["Closed for renovation"],
+    "history": {
+        "announced": "15 November 1968",
+        "groundbreaking": "7 December 1968",
+        "dedicated": "19 November 1974",
+        "rededicated": "14 August 2022"
+         },
+    "photo": "images/washington-temple.jpeg"
+
+},
+
+{
+    "templeName": "Aba, Nigeria Temple",
+    "address": "72-80 Okpu-Umuobo Rd Aba, Abia State, Nigeria",
+    "email": "columbia@thechurchofjesuschrist.org",
+    "phone": "+234 80-3903-4810",
+    "services": ["No clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"],
+    "ordinanceSchedule": "Available by appointment only",
+    "sessionSchedule": "By appointment",
+    "closureSchedule": ["Saturday, 20 August 2022",
+        "Monday, 5 September 2022 - Monday, 2 January 2023"],
+    "history": {
+        "announced": "2 April 2000",
+        "groundbreaking": "23 February 2002",
+        "dedicated": "7 August 2005",
+        "rededicated": "No"
+         },
+    "photo": "images/nigeria-temple.jpeg"
+}
+]
+
+}
