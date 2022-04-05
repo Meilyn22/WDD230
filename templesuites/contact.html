@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;1,100;1,300;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/small.css">
-    <link rel="stylesheet" href="../css/medium.css">
-    <link rel="stylesheet" href="../css/large.css">
-    <title>Temple Inn & Suites - Temples</title>
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <title>Book a room - Temple-Inn & Suites</title>
 </head>
 <body>
     <header>
@@ -18,9 +18,9 @@
             <h2>info@templeinn.lds</h2>
 
             <div class="icons">
-                <a href="#"><img class="icons1" src="../icons/facebook.webp" width=30 height=30 alt="facebook logo">
+                <a href="#"><img class="icons1" src="icons/facebook.webp" width=30 height=30 alt="facebook logo">
                 </a>
-                <a href="#"> <img class="icons2" src="../icons/instagram.webp" width=30 height=30 alt="instagram logo">
+                <a href="#"> <img class="icons2" src="icons/instagram.webp" width=30 height=30 alt="instagram logo">
                 </a>
             </div>
         
@@ -28,7 +28,7 @@
 
         <nav class="logo-nav">
         <div class = "logo">
-            <img src="../images/temple-image.webp" alt="temple logo" width="80" height="80">
+            <img src="images/temple-image.webp" alt="temple logo" width="80" height="80">
                 <h2 class="head-text"> 
                     Temple-Inn & Suites
                 </h2>
@@ -39,18 +39,32 @@
     </nav>
         <nav id="navigation">
             <ul class="nav-list">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./temple.html">Temple</a></li>
-                <li><a href="../reservation.html">Reservation</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./temple/temple.html">Temple</a></li>
+                <li><a href="./reservation.html">Reservation</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
-        <h1 class="head-title"> Temples</h1>
+
+        <h1 class="head-title">Contact</h1>
     </header>
 
-    <main id="temple-main">
-            <div class="cards"></div>
+
+    <main id="contact-main">
+        <form method="get" action="../join/thanks.html">
+            <label class="consbs">Name*<input type="text" name="name" required></label>
+            <label class="consbs">Email*<input type="email" name="email" placeholder="james@example.com" required></label>
+            <label class="consbs">Phone*<input type="tel" name="tel" placeholder="+18014042885" required></label>
+            <label class="consbs">Message*<textarea name="message" cols="50" rows="8" required></textarea></label>
+            <input class="button" type="submit" name="submitBtn" value="Send Message">
+        </form>
+
+        <section class="contact-card">
+            <h2>Phone & Email</h2>
+            <p><strong>Phone</strong>+1 801-404-2885</p>
+            <p><strong>Email</strong>info@templeinn.lds</p>
+        </section>
 
     </main>
 
@@ -69,11 +83,11 @@
         <nav class="foot-nav">
             <h3>Navigation</h3>
             <ul class="foot-nav-list">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./temple.html">Temple</a></li>
-                <li><a href="../reservation.html">Reservation</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./temple/temple.html">Temple</a></li>
+                <li><a href="#">Reservation</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     
@@ -88,8 +102,7 @@
           </div>
         </div>
     </footer>
-    <script src="../js/menu.js"></script>
-    <script src="../js/modified.js"></script>
-    <script src="./js/temple.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/modified.js"></script>
 </body>
 </html>

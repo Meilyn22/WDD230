@@ -256,7 +256,7 @@ color: white;
 .cards {
     display: grid;
     grid-template-columns: auto;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .head-title {
@@ -354,7 +354,7 @@ form fieldset {
   
   }
   
-  form input.submitBtn {
+  form input.submitBtn, .button {
     border: none;
     background-color: rgba(220, 53, 69, 5);
     color: white;
@@ -367,7 +367,7 @@ form fieldset {
   }
 
   form input.submitBtn:hover {
-    color: green;
+    color: Blue;
 
   }
   
@@ -389,3 +389,31 @@ form fieldset {
   .spe {
       max-width: 50%;
   }
+
+/* ----- contact ----- */
+
+#contact-main {
+    margin: 30px auto;
+    display: block;
+}
+
+label.consbs {
+    text-align: center;
+    margin: 2em;
+    color: white;
+}
+
+label.consbs input {
+    display: block;
+    width: 90%;
+    height: 50px;
+    margin: 5px auto;
+}
+
+textarea {
+    display: block;
+    margin: 5px auto;
+    width: 100%;
+}
+
+

@@ -177,4 +177,10 @@
   .check {
     display: flex;
   }
+
+  #contact-main {
+    margin: 30px auto;
+    display: block;
+    width: 70%
+}
 }
