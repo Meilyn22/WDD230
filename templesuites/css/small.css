@@ -255,9 +255,14 @@ color: white;
 
 .cards {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-    margin: 20px 20px;
+    grid-template-columns: auto;
+    margin: 20px 0;
+}
+
+.head-title {
+    text-align: center;
+    background-color: #dc3545;
+    color: white;
 }
 
 .cards li {
