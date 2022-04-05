@@ -22,7 +22,7 @@
             "dedicated": "16 October 1999",
             "rededicated": "No"
              },
-        "photo": "images/columbia-temple.jpeg"
+        "photo": "images/columbia-temple.webp"
 
     },
 
@@ -49,7 +49,7 @@
         "dedicated": "10 December 2017",
         "rededicated": "No"
          },
-    "photo": "images/cedar-temple.jpeg"
+    "photo": "images/cedar-temple.webp"
 
 },
 
@@ -68,7 +68,7 @@
         "dedicated": "19 November 1974",
         "rededicated": "14 August 2022"
          },
-    "photo": "images/washington-temple.jpeg"
+    "photo": "images/washington-temple.webp"
 
 },
 
@@ -91,7 +91,7 @@
         "dedicated": "7 August 2005",
         "rededicated": "No"
          },
-    "photo": "images/nigeria-temple.jpeg"
+    "photo": "images/nigeria-temple.webp"
 }
 ]
 
