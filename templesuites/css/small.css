@@ -12,7 +12,7 @@ body{
 .social-nav {
     display: flex;
     justify-content: space-around;
-    background-color: #dc3545;
+    background-color: rgba(220, 53, 69, 5);
     color: white;
     font-size: 10px;
 
