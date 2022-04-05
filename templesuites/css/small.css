@@ -369,7 +369,7 @@ form fieldset {
   form {
     display: flex;
     flex-direction: column;
-    margin: 100px auto;
+    margin: 50px auto;
     width: 100%;
     background-color: rgba(33, 37, 41, 0.93);
   }
@@ -379,4 +379,8 @@ form fieldset {
     width: 100%;
     margin: 20px 0
 
+  }
+
+  .spe {
+      max-width: 50%;
   }
