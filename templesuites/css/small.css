@@ -241,7 +241,7 @@ color: white;
 .image-temp {
     width: 100%;
     height: auto;
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .text-area {
@@ -249,4 +249,36 @@ color: white;
     line-height: 2;
     padding: 20px;
     font-weight: 400;
+}
+
+/*---- Temple Page ----- */
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 20px 20px;
+}
+
+.cards li {
+    line-height: 2;
+    font-weight: bold;
+}
+
+.cards section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+.cards h2 {
+    text-align: center;
 }
