@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: #dc3545;
-    color: #f8f9fa;
+    color: white;
     font-size: 10px;
 
 }
@@ -191,7 +191,7 @@ footer {
 }
 
 .foot-contact a {
-    color: red;
+    color: #E29C89;
     text-decoration: none;
 }
 
@@ -201,7 +201,7 @@ footer {
 
 .foot-nav li a{
     text-decoration: none;
-    color: red;
+    color: #E29C89;
     font-weight: bold;
 
 }
