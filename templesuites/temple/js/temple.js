@@ -70,8 +70,6 @@ function displayTemples(temple) {
 }
 
 
-
-
 function listServ(item) {
     uList = document.createElement('ul')
 
