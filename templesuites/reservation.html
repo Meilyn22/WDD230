@@ -18,9 +18,9 @@
             <h2>info@templeinn.lds</h2>
 
             <div class="icons">
-                <a href="#"><img class="icons1" src="icons/facebook.png" width=30 height=30 alt="facebook logo">
+                <a href="#"><img class="icons1" src="icons/facebook.webp" width=30 height=30 alt="facebook logo">
                 </a>
-                <a href="#"> <img class="icons2" src="icons/instagram.png" width=30 height=30 alt="instagram logo">
+                <a href="#"> <img class="icons2" src="icons/instagram.webp" width=30 height=30 alt="instagram logo">
                 </a>
             </div>
         
@@ -50,6 +50,82 @@
 
 
     <main>
+        <form action="thanks.html" method="get">
+            <fieldset>
+              <legend>Information</legend>
+    
+              <label class="top">
+                First Name* <input type="text" name="fname" required
+              /></label>
+              <label class="top">
+                Last Name* <input type="text" name="lname" required
+              /></label>
+              <label class="top">
+                Email*
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="someone@gmail.com"
+                  required
+              /></label>
+              <label class="top">
+                Phone*
+                <input type="tel" name="phone" placeholder="+18014042885" required />
+              </label>
+              <label for="homeLoc" class="top">
+                Home state or Country *
+                <input
+                  type="text"
+                  name="home"
+                  placeholder="e.g United State" required
+              /></label>
+              <label class="top">
+                Business Name/title <input type="text" name="business" pattern="[A-Za-z- ]{7,}"
+              /></label>
+            </fieldset>
+    
+            <fieldset>
+              <legend>Booking Information</legend>
+              <label class="sbs">Location </label>
+                <select>
+                    <option class="resLoc" disabled selected value>Select a location...</option>
+                    <option class="sbs" value="South Carolina">Columbia South Carolina, US</option>
+                    <option class="sbs" value="Utah"> Cedar City Utah, US</option>
+                    <option class="sbs" value="Maryland">Washington D.C, US</option>
+                    <option class="sbs" value="Aba"> Aba, Nigeria</option>
+                </select>
+                <legend class="room">Room Type </legend>
+                <label class="sbs sba"
+                ><input
+                  type="radio"
+                  name="roomType"
+                  value="Vip"
+                />Vip Floor
+            
+              </label>
+
+              <label class="sbs sba"
+                ><input type="radio" name="roomType" value="Suite"/> Suite
+              </label>
+              <label class="sbs sba"
+                ><input type="radio" name="roomType" value="King" /> King
+              </label>
+
+              <div class="check">
+              <label class="sbs sba"> Check in* <input type="date" min="2022-04-20" max="2024-12-20" required></label>
+              <label class="sbs sba"> Check out*<input type="date" min="2022-04-21" max="2024-12-20" required></label>
+            </div>
+            </fieldset>
+    
+            <fieldset>
+              <legend> special accommodations/comments</legend>
+              <label class="top"
+                > 
+                <textarea name="description" cols="50" rows="10"> </textarea>
+              </label>
+            </fieldset>
+            <input class="submitBtn" type="submit" value="Book My Room" />
+          </form>
         
     </main>
 

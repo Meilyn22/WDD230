@@ -291,4 +291,92 @@ color: white;
 
 /* ----Reservation----- */
 
+form fieldset {
+    margin: 0.5rem 0;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: .5rem 5%;
+  }
+  
+  form legend{
+    padding: 4px 20%;
+    overflow: hidden;
+    background-color: rgba(220, 53, 69, 5);
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  form label.top {
+    display: block;
+    padding-top: 1rem;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  form label.top input, form label.top textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 50rem;
+    background-color: white
+  
+  }
+  
+  form label.sbs {
+    display: block;
+    font-size: 1.2rem;
+    color: white;
+  }
 
+  form label.sba {
+      color: #E29C89;
+      line-height: 2;
+      margin: 20px;
+      font-weight: bold;
+      font-size: 0.9em;
+  }
+
+  form label.sba input {
+    margin-left: 10px;
+    padding: 0 30px;
+
+
+  }
+  
+  form label.sbs input {
+    margin-right: 9px;
+  
+  }
+  
+  form input.submitBtn {
+    border: none;
+    background-color: rgba(220, 53, 69, 5);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 2rem auto;
+    width: 96%;
+    max-width: 20rem;
+    font-size: 1.5rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    width: 100%;
+    background-color: rgba(33, 37, 41, 0.93);
+  }
+  
+  select {
+    padding: 10px;
+    width: 100%;
+    margin: 20px 0
+
+  }

@@ -167,6 +167,18 @@
     .cards {
       gap: 40px;
       margin: 20px 200px;
-  
+    }
+
+    form {
+      width: 50%;
+      margin: 50px auto;
+  }
+
+  .room {
+    width: 30%
+  }
+
+  .check {
+    display: flex;
   }
 }
