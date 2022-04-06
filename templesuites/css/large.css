@@ -191,13 +191,15 @@
   width: 400px;
   margin: auto 40px 524px;
   text-align: center;
+  background-color: black;
+  color: #E29C89;
 }
 
 .contact-card h2 {
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
-  background-color: rgba(33, 37, 41, 0.93);
+  background-color: rgba(33, 37, 41, 0.8);
   text-align: center;
   width: 100%;
   font-size: 18px;
