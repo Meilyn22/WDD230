@@ -253,7 +253,6 @@
 .text-text {
   display: flex;
   flex-direction: column;
-  align-items: space-between;
   max-width: 500px;
 }
 
