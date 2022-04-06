@@ -205,7 +205,7 @@
   font-size: 18px;
 }
 
-#amenities-main {
+.spe-amen {
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin-left: 40px;
@@ -213,5 +213,13 @@
   grid-gap: 20px;
 }
 
+.pic-con {
+  display: flex;
+  justify-content: center;
+}
+
+.picture-view2, .picture-view {
+  max-width: 600px;
+}
 
 }
