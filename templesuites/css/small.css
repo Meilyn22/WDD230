@@ -549,8 +549,8 @@ display: none;
 }
 
 .p-up {
-    padding: 0 20px;
-
+    text-align: left;
+    margin: 3px auto;
 }
 
 .book-now {
