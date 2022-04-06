@@ -24,4 +24,18 @@
     gap: 20px;
 
 }
+
+.picture-view { 
+    max-width: 500px;
+    background-image: url(../images/gym-medium.webp);
+
+}
+
+.picture-view2 { 
+    max-width: 500px;
+    background-image: url(../images/reception-medium.webp)
+
+}
+
+
 }

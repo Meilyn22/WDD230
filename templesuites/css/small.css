@@ -433,7 +433,7 @@ display: none;
 /*---Amenities---*/
 
 .picture-view {
-    background-image: url(../images/gym.webp);
+    background-image: url(../images/gym-small.webp);
     background-size: cover;
     width: 100%;
     max-width: 400px;
@@ -444,7 +444,7 @@ display: none;
 }
 
 .picture-view2 {
-    background-image: url(../images/reception.webp);
+    background-image: url(../images/reception-small.webp);
     background-size: cover;
     width: 100%;
     max-width: 400px;

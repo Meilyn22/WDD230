@@ -219,8 +219,13 @@
   flex-direction: row;
   justify-content: center;
 }
+.picture-view {
+  background-image: url(../images/gym.webp);
+  max-width: 600px;
+}
 
-.picture-view2, .picture-view {
+.picture-view2 {
+  background-image: url(../images/reception.webp);
   max-width: 600px;
 }
 
