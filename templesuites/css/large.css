@@ -230,4 +230,32 @@
   max-width: 600px;
 }
 
+#recep-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+
+.recep-pic {
+  width: 60%;
+  height: 355px;
+  margin: 40px;
+  flex-direction: row;
+  background-color: #212529;
+}
+
+.recep-pic img {
+  max-width: 500px;
+}
+
+
+.text-text {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  max-width: 500px;
+}
+
+
 }
