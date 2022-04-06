@@ -37,5 +37,11 @@
 
 }
 
+.amen p, .special p { 
+    margin: 20px 40px;
+}
 
+.amen h2, .special h2 {
+    text-align: center;
+}
 }

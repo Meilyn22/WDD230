@@ -208,6 +208,7 @@
 .spe-amen {
   grid-template-columns: 1fr 2fr;
   margin-left: 40px;
+  grid-gap: 20px;
 }
 
 .amen, .special {
