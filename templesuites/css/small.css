@@ -491,6 +491,18 @@ display: none;
       padding: 20px;
   }
 
+  .book-now-a {
+    padding: 5px 70px;
+    width: 20%;
+    background-color: #dc3545;
+    color: white;
+    margin: 20px auto;
+}
+
+.book-now-a:hover {
+    color: black;
+}
+
   /* ----- reception ----*/
 
   .recep-pic {
@@ -537,4 +549,15 @@ display: none;
 .p-up {
     padding: 0 20px;
 
+}
+
+.book-now {
+    padding: 5px 70px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.book-now:hover {
+    color: #dc3545;
 }
