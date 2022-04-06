@@ -475,7 +475,7 @@ display: none;
     display: grid;
     grid-template-columns: 1fr;
     margin-bottom: 50px;
-    grid-gap: 20px;
+    
   }
 
   .amen, .special{
