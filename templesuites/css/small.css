@@ -458,6 +458,7 @@ display: none;
     align-self: end;
     text-align: center;
     background-color: black;
+    margin: 0 auto;
     color: white;
     width: 100%;
     padding: 20px;
