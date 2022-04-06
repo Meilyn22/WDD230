@@ -49,8 +49,6 @@ body{
     flex: 1;
 }
 
-
-
 .nav-list li a{
     display: flex;
     justify-content: center;
@@ -81,6 +79,15 @@ body{
 }
 
 #navigation.open {
+    display: block;
+}
+
+.sub {
+    display: none;
+    padding-left: 10px;
+}
+
+.sub-menu:hover > ul {
     display: block;
 }
 
