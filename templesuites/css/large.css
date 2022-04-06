@@ -206,15 +206,17 @@
 }
 
 .spe-amen {
-  display: grid;
   grid-template-columns: 1fr 2fr;
   margin-left: 40px;
-  margin-bottom: 50px;
-  grid-gap: 20px;
+}
+
+.amen, .special {
+  padding: 50px;
 }
 
 .pic-con {
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
