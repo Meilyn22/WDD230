@@ -45,6 +45,8 @@ function displayTemples(temple) {
     portrait.setAttribute('src', temple.photo);
     portrait.setAttribute('alt', `picture of ${temple.templeName}`);
     portrait.setAttribute('loading', 'lazy');
+    portrait.setAttribute('width', 400);
+    portrait.setAttribute('height', 250);
 
     card.appendChild(templeName)
     card.appendChild(portrait)
