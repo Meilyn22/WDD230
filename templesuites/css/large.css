@@ -204,4 +204,14 @@
   width: 100%;
   font-size: 18px;
 }
+
+#amenities-main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  grid-gap: 20px;
+}
+
+
 }
