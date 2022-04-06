@@ -179,8 +179,27 @@
   }
 
   #contact-main {
-    margin: 30px auto;
-    display: block;
-    width: 70%
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 80%
+}
+
+.contact-card {
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: auto 40px 524px;
+  text-align: center;
+}
+
+.contact-card h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  background-color: rgba(33, 37, 41, 0.93);
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
 }
 }
