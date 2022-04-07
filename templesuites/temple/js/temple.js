@@ -48,8 +48,7 @@ function displayTemples(temple) {
     portrait.setAttribute('loading', 'lazy');
     portrait.setAttribute('width', 400);
     portrait.setAttribute('height', 250);
-
-    card.appendChild(heart)
+    
     card.appendChild(templeName)
     card.appendChild(portrait)
     card.appendChild(address)
