@@ -497,15 +497,17 @@ display: none;
       padding: 20px;
   }
 
-  .book-now-a {
+  .book-now-a{
     padding: 5px 70px;
     width: 20%;
     background-color: #dc3545;
-    color: white;
     margin: 20px auto;
 }
+.book-now-a a {
+    color: white;
+}
 
-.book-now-a:hover {
+.book-now-a a:hover {
     color: black;
 }
 
@@ -559,14 +561,18 @@ display: none;
     margin: 3px auto;
 }
 
-.book-now {
+.book-now{
     padding: 5px 70px;
     background-color: black;
-    color: white;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
-.book-now:hover {
+.book-now a {
+    color: white;
+    text-decoration: none;
+}
+
+.book-now a:hover {
     color: #dc3545;
 }
