@@ -25,6 +25,7 @@ function displayTemples(temple) {
     let rededicated = document.createElement("p")
     let closuresH2 = document.createElement('h2')
     let portrait = document.createElement('img')
+    let heart = document.createElement('img')
 
     let services = listServ(temple.services)
     let closures = listServ(temple.closureSchedule)
@@ -48,6 +49,7 @@ function displayTemples(temple) {
     portrait.setAttribute('width', 400);
     portrait.setAttribute('height', 250);
 
+    card.appendChild(heart)
     card.appendChild(templeName)
     card.appendChild(portrait)
     card.appendChild(address)
@@ -66,10 +68,7 @@ function displayTemples(temple) {
     card.appendChild(rededicated)
 
     document.querySelector('div.cards').appendChild(card);
-
-
-}
-
+  
 
 function listServ(item) {
     uList = document.createElement('ul')
@@ -81,6 +80,5 @@ function listServ(item) {
 
     }
     return uList
+  }
 }
-
-
