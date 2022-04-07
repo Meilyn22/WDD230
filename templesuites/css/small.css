@@ -7,6 +7,7 @@ body{
     padding:0;
 }
 
+
 /*----- Top Navigation ------*/
 
 .social-nav {
@@ -47,6 +48,11 @@ body{
 
 .logo .head-text {
     flex: 1;
+}
+
+.logo .head-text a {
+    text-decoration: none;
+    color: white;
 }
 
 .nav-list li a{
