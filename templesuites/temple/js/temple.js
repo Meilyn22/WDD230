@@ -44,6 +44,7 @@ function displayTemples(temple) {
     closuresH2.textContent = "Closures schedule"
     portrait.setAttribute('src', temple.photo);
     portrait.setAttribute('alt', `picture of ${temple.templeName}`);
+    portrait.setAttribute('loading', 'lazy');
     portrait.setAttribute('width', 400);
     portrait.setAttribute('height', 250);
 
