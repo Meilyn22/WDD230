@@ -25,7 +25,7 @@ function displayTemples(temple) {
     let rededicated = document.createElement("p")
     let closuresH2 = document.createElement('h2')
     let portrait = document.createElement('img')
-    let heart = document.createElement('img')
+    let heart = document.createElement('button')
 
     let services = listServ(temple.services)
     let closures = listServ(temple.closureSchedule)
@@ -48,6 +48,42 @@ function displayTemples(temple) {
     portrait.setAttribute('loading', 'lazy');
     portrait.setAttribute('width', 400);
     portrait.setAttribute('height', 250);
+    heart.style.padding = "20px"
+    heart.style.backgroundColor = "red"
+    heart.style.color = "black"
+    heart.textContent = "unliked"
+
+    card.appendChild(heart)
+    
+    heart.addEventListener("click", () => {
+      if(heart.style.backgroundColor === "red") {
+        heart.style.backgroundColor = "blue"
+        heart.style.color = "white"
+        heart.textContent = "Liked"
+
+        localStorage.setItem(`${temple.email} backgroundColor`, heart.style.backgroundColor)
+        localStorage.setItem(`${temple.email} color`, heart.style.color)
+        localStorage.setItem(`${temple.email} textContent`, heart.textContent)
+      }
+      
+      else {
+          heart.style.backgroundColor = "red"
+          heart.style.color = "black"
+          heart.textContent = "unliked"
+
+          localStorage.setItem(`${temple.email} backgroundColor`, heart.style.backgroundColor)
+          localStorage.setItem(`${temple.email} color`, heart.style.color)
+          localStorage.setItem(`${temple.email} textContent`, heart.textContent)
+      }
+      
+    }) 
+
+    heart.style.backgroundColor = localStorage.getItem(`${temple.email} backgroundColor` )
+    heart.style.color =localStorage.getItem(`${temple.email} color`)
+    heart.textContent = localStorage.getItem(`${temple.email} textContent`)
+
+          
+    
     
     card.appendChild(templeName)
     card.appendChild(portrait)
